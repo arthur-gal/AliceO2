@@ -1,0 +1,70 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Steer/DigitizerWorkflow/src/TPCDriftTimeDigitizerSpec.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Steer/DigitizerWorkflow/src/TPCDriftTimeDigitizerSpec.cxx">
+<area shape="rect" id="node2" href="$d6/dad/TPCDriftTimeDigitizerSpec_8h.html" title="TPCDriftTimeDigitizerSpec.h" alt="" coords="1752,125,1944,152"/>
+<area shape="rect" id="node3" href="$d0/df4/DataProcessorSpec_8h.html" title="Framework/DataProcessorSpec.h" alt="" coords="1775,200,1993,227"/>
+<area shape="rect" id="node24" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="1422,672,1577,699"/>
+<area shape="rect" id="node30" href="$dc/dca/Lifetime_8h.html" title="Framework/Lifetime.h" alt="" coords="1153,672,1300,699"/>
+<area shape="rect" id="node53" href="$d2/d43/ControlService_8h.html" title="Framework/ControlService.h" alt="" coords="6491,125,6679,152"/>
+<area shape="rect" id="node54" href="$d5/db8/DataRefUtils_8h.html" title="Framework/DataRefUtils.h" alt="" coords="511,424,689,451"/>
+<area shape="rect" id="node57" href="$dd/d40/HitProcessingManager_8h.html" title="Steer/HitProcessingManager.h" alt="" coords="5773,499,5972,525"/>
+<area shape="rect" id="node66" href="$de/d92/TPC_2simulation_2include_2TPCSimulation_2Digitizer_8h.html" title="TPCSimulation/Digitizer.h" alt="" coords="5612,424,5785,451"/>
+<area shape="rect" id="node75" href="$d4/de5/Point_8h.html" title="Class for TPC Point. " alt="" coords="5312,499,5465,525"/>
+<area shape="rect" id="node78" href="$d3/db6/SpaceCharge_8h.html" title="Definition of the handler for the ALICE TPC space&#45;charge distortions calculations. " alt="" coords="6419,499,6623,525"/>
+<area shape="rect" id="node81" href="$dd/d4b/TPC_2simulation_2include_2TPCSimulation_2DigitizerTask_8h.html" title="TPCSimulation/DigitizerTask.h" alt="" coords="4835,349,5037,376"/>
+<area shape="rect" id="node86" href="$d2/da8/ElectronTransport_8h.html" title="Definition of the electron transport. " alt="" coords="6647,499,6875,525"/>
+<area shape="rect" id="node88" href="$d6/da2/HitDriftFilter_8h.html" title="TPCSimulation/HitDriftFilter.h" alt="" coords="6703,125,6899,152"/>
+<area shape="rect" id="node90" href="$dc/df2/CDBInterface_8h.html" title="Simple interface to the CDB manager. " alt="" coords="5011,424,5185,451"/>
+<area shape="rect" id="node95" href="$d3/d09/TPCSectorHeader_8h.html" title="DataFormatsTPC/TPCSector\lHeader.h" alt="" coords="1664,574,1859,615"/>
+<area shape="rect" id="node96" href="$de/d28/GRPObject_8h.html" title="Header of the General Run Parameters object. " alt="" coords="7204,574,7368,615"/>
+<area shape="rect" id="node100" href="$de/d64/RangeReference_8h.html" title="Class to refered to the 1st entry and N elements of some group in the continuous container. " alt="" coords="6569,200,6825,227"/>
+<area shape="rect" id="node4" href="$d0/d14/AlgorithmSpec_8h.html" title="Framework/AlgorithmSpec.h" alt="" coords="2545,275,2732,301"/>
+<area shape="rect" id="node6" href="$d1/d28/DataAllocator_8h.html" title="Framework/DataAllocator.h" alt="" coords="2907,424,3088,451"/>
+<area shape="rect" id="node33" href="$db/d2d/OutputSpec_8h.html" title="Framework/OutputSpec.h" alt="" coords="1232,581,1403,608"/>
+<area shape="rect" id="node46" href="$d0/d1c/ConfigParamSpec_8h.html" title="Framework/ConfigParamSpec.h" alt="" coords="245,581,453,608"/>
+<area shape="rect" id="node48" href="$d1/df2/DataProcessorLabel_8h.html" title="Framework/DataProcessorLabel.h" alt="" coords="1774,275,1993,301"/>
+<area shape="rect" id="node49" href="$d5/dfb/DataRef_8h.html" title="Framework/DataRef.h" alt="" coords="209,499,359,525"/>
+<area shape="rect" id="node50" href="$d5/d3f/InputSpec_8h.html" title="Framework/InputSpec.h" alt="" coords="1478,581,1639,608"/>
+<area shape="rect" id="node5" href="$de/d6a/ProcessingContext_8h.html" title="Framework/ProcessingContext.h" alt="" coords="2747,349,2960,376"/>
+<area shape="rect" id="node43" href="$d7/dad/ErrorContext_8h.html" title="Framework/ErrorContext.h" alt="" coords="2355,349,2531,376"/>
+<area shape="rect" id="node44" href="$d4/d2b/InitContext_8h.html" title="Framework/InitContext.h" alt="" coords="2555,349,2721,376"/>
+<area shape="rect" id="node7" href="$df/d2f/ContextRegistry_8h.html" title="Framework/ContextRegistry.h" alt="" coords="3160,672,3357,699"/>
+<area shape="rect" id="node8" href="$dc/dc4/MessageContext_8h.html" title="Framework/MessageContext.h" alt="" coords="3386,581,3587,608"/>
+<area shape="rect" id="node9" href="$d8/d71/FairMQDeviceProxy_8h.html" title="Framework/FairMQDeviceProxy.h" alt="" coords="2611,672,2831,699"/>
+<area shape="rect" id="node14" href="$d2/d80/RootObjectContext_8h.html" title="Framework/RootObjectContext.h" alt="" coords="2646,581,2860,608"/>
+<area shape="rect" id="node15" href="$dd/df6/StringContext_8h.html" title="Framework/StringContext.h" alt="" coords="2885,581,3067,608"/>
+<area shape="rect" id="node16" href="$d8/da2/ArrowContext_8h.html" title="Framework/ArrowContext.h" alt="" coords="3793,499,3975,525"/>
+<area shape="rect" id="node17" href="$d5/d98/TableBuilder_8h.html" title="Framework/TableBuilder.h" alt="" coords="3765,581,3939,608"/>
+<area shape="rect" id="node18" href="$d8/d25/RawBufferContext_8h.html" title=" " alt="" coords="3213,499,3423,525"/>
+<area shape="rect" id="node19" href="$d7/d91/BoostSerializer_8h.html" title="Templatised boost serializer/deserializer for containers and base types. " alt="" coords="4015,581,4220,608"/>
+<area shape="rect" id="node23" href="$d3/ddf/Output_8h.html" title="Framework/Output.h" alt="" coords="1067,581,1207,608"/>
+<area shape="rect" id="node31" href="$d6/d5a/OutputRef_8h.html" title="Framework/OutputRef.h" alt="" coords="1933,581,2096,608"/>
+<area shape="rect" id="node32" href="$d6/df4/OutputRoute_8h.html" title="Framework/OutputRoute.h" alt="" coords="2040,499,2216,525"/>
+<area shape="rect" id="node35" href="$d7/d31/DataChunk_8h.html" title="Framework/DataChunk.h" alt="" coords="3549,499,3717,525"/>
+<area shape="rect" id="node36" href="$da/d2b/TimingInfo_8h.html" title="Framework/TimingInfo.h" alt="" coords="2976,499,3139,525"/>
+<area shape="rect" id="node37" href="$d8/d3c/TMessageSerializer_8h.html" title="Framework/TMessageSerializer.h" alt="" coords="982,499,1199,525"/>
+<area shape="rect" id="node40" href="$d0/d95/TypeTraits_8h.html" title="Framework/TypeTraits.h" alt="" coords="681,581,844,608"/>
+<area shape="rect" id="node41" href="$d1/d53/SerializationMethods_8h.html" title="Type wrappers for enfording a specific serialization method. " alt="" coords="1223,499,1445,525"/>
+<area shape="rect" id="node29" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1409,755,1591,781"/>
+<area shape="rect" id="node47" href="$de/d56/Variant_8h.html" title="Framework/Variant.h" alt="" coords="371,672,513,699"/>
+<area shape="rect" id="node58" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="6518,665,6727,706"/>
+<area shape="rect" id="node62" href="$d5/d3f/RunContext_8h.html" title="SimulationDataFormat\l/RunContext.h" alt="" coords="6049,574,6201,615"/>
+<area shape="rect" id="node64" href="$df/dff/InteractionSampler_8h.html" title="Steer/InteractionSampler.h" alt="" coords="6431,581,6608,608"/>
+<area shape="rect" id="node61" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="6824,755,7060,781"/>
+<area shape="rect" id="node67" href="$dd/d94/DigitContainer_8h.html" title="Definition of the Digit Container. " alt="" coords="7588,499,7796,525"/>
+<area shape="rect" id="node71" href="$d7/d0f/PadResponse_8h.html" title="Definition of the Pad Response. " alt="" coords="5491,499,5697,525"/>
+<area shape="rect" id="node72" href="$d7/d2c/Mapper_8h.html" title="TPCBase/Mapper.h" alt="" coords="5471,581,5608,608"/>
+<area shape="rect" id="node68" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="7323,755,7491,781"/>
+<area shape="rect" id="node69" href="$db/dad/ParameterDetector_8h.html" title="Definition of the parameter class for the detector. " alt="" coords="7698,581,7901,608"/>
+<area shape="rect" id="node70" href="$db/d5b/ParameterGas_8h.html" title="Definition of the parameter class for the detector gas. " alt="" coords="7495,581,7673,608"/>
+<area shape="rect" id="node73" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="5573,672,5704,699"/>
+<area shape="rect" id="node74" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="4580,755,4779,781"/>
+<area shape="rect" id="node76" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="5684,574,5836,615"/>
+<area shape="rect" id="node77" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="5303,672,5497,699"/>
+<area shape="rect" id="node85" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="195,665,347,706"/>
+<area shape="rect" id="node87" href="$db/dac/RandomRing_8h.html" title="TPCBase/RandomRing.h" alt="" coords="5073,581,5244,608"/>
+<area shape="rect" id="node91" href="$da/d6a/Condition_8h.html" title="Definition of the Condition class (CDB object) containing the condition and its metadata. " alt="" coords="6213,499,6343,525"/>
+<area shape="rect" id="node92" href="$d4/dd1/IdPath_8h.html" title="CCDB/IdPath.h" alt="" coords="6684,581,6799,608"/>
+<area shape="rect" id="node93" href="$d1/da0/Manager_8h.html" title="Adapted to o2 from the original AliCDBManager.h in AliRoot. " alt="" coords="5035,499,5161,525"/>
+<area shape="rect" id="node94" href="$d8/d81/CalDet_8h.html" title="TPCBase/CalDet.h" alt="" coords="4770,499,4904,525"/>
+<area shape="rect" id="node98" href="$da/d58/Units_8h.html" title="Header to collect definitions for different units. " alt="" coords="7212,672,7369,699"/>
+<area shape="rect" id="node99" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="5828,665,6036,706"/>
+</map>

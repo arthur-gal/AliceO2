@@ -1,0 +1,24 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/macros/test/CheckTopologies.C" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/macros/test/CheckTopologies.C">
+<area shape="rect" id="node13" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="2593,752,2713,779"/>
+<area shape="rect" id="node17" href="$df/d9a/ITS_2base_2include_2ITSBase_2GeometryTGeo_8h.html" title="ITSBase/GeometryTGeo.h" alt="" coords="1914,397,2091,424"/>
+<area shape="rect" id="node34" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1687,661,1853,688"/>
+<area shape="rect" id="node47" href="$d9/d1d/BuildTopologyDictionary_8h.html" title="Definition of the BuildTopologyDictionary class. " alt="" coords="1536,126,1715,167"/>
+<area shape="rect" id="node51" href="$d8/ddb/ClusterTopology_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="787,217,979,258"/>
+<area shape="rect" id="node53" href="$d1/d62/DataFormats_2Detectors_2ITSMFT_2common_2include_2DataFormatsITSMFT_2Cluster_8h.html" title="DataFormatsITSMFT/Cluster.h" alt="" coords="540,397,743,424"/>
+<area shape="rect" id="node59" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="2208,480,2371,507"/>
+<area shape="rect" id="node68" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="1880,307,2032,349"/>
+<area shape="rect" id="node69" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="3297,654,3449,695"/>
+<area shape="rect" id="node16" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="2629,843,2867,869"/>
+<area shape="rect" id="node21" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="1389,480,1619,507"/>
+<area shape="rect" id="node27" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="2313,654,2521,695"/>
+<area shape="rect" id="node44" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="1643,480,1847,507"/>
+<area shape="rect" id="node41" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="262,752,428,779"/>
+<area shape="rect" id="node46" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="756,563,964,605"/>
+<area shape="rect" id="node50" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="145,397,375,424"/>
+<area shape="rect" id="node57" href="$d1/d08/TopologyDictionary_8h.html" title="Definition of the ClusterTopology class. " alt="" coords="1605,217,1808,258"/>
+<area shape="rect" id="node52" href="$de/dc1/ClusterPattern_8h.html" title="DataFormatsITSMFT/Cluster\lPattern.h" alt="" coords="277,307,469,349"/>
+<area shape="rect" id="node54" href="$d4/de2/BaseCluster_8h.html" title="ReconstructionDataFormats\l/BaseCluster.h" alt="" coords="548,473,735,514"/>
+<area shape="rect" id="node60" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2156,563,2308,605"/>
+<area shape="rect" id="node62" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="2748,571,2943,597"/>
+<area shape="rect" id="node63" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="2932,661,3127,688"/>
+</map>

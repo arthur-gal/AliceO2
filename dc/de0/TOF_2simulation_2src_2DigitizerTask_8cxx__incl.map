@@ -1,0 +1,21 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/src/DigitizerTask.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/src/DigitizerTask.cxx">
+<area shape="rect" id="node2" href="$d8/dc6/TOF_2simulation_2include_2TOFSimulation_2DigitizerTask_8h.html" title="TOFSimulation/DigitizerTask.h" alt="" coords="1770,125,1971,152"/>
+<area shape="rect" id="node56" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="3623,125,3743,152"/>
+<area shape="rect" id="node5" href="$df/d9c/TOF_2base_2include_2TOFBase_2Digit_8h.html" title="TOFBase/Digit.h" alt="" coords="1112,365,1232,392"/>
+<area shape="rect" id="node9" href="$d5/d3c/TOF_2simulation_2include_2TOFSimulation_2Detector_8h.html" title="TOFSimulation/Detector.h" alt="" coords="1709,365,1883,392"/>
+<area shape="rect" id="node45" href="$d0/d85/TOF_2simulation_2include_2TOFSimulation_2Digitizer_8h.html" title="TOFSimulation/Digitizer.h" alt="" coords="1553,200,1724,227"/>
+<area shape="rect" id="node50" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="2688,275,2840,317"/>
+<area shape="rect" id="node6" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1129,448,1356,475"/>
+<area shape="rect" id="node10" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="2401,448,2575,475"/>
+<area shape="rect" id="node29" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="3140,531,3335,557"/>
+<area shape="rect" id="node33" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="937,448,1053,475"/>
+<area shape="rect" id="node34" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1380,441,1532,482"/>
+<area shape="rect" id="node17" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="2743,531,2963,557"/>
+<area shape="rect" id="node24" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="3020,613,3215,640"/>
+<area shape="rect" id="node35" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="817,531,983,557"/>
+<area shape="rect" id="node42" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1391,613,1557,640"/>
+<area shape="rect" id="node46" href="$dd/d77/Strip_8h.html" title="TOFSimulation/Strip.h" alt="" coords="1407,283,1557,309"/>
+<area shape="rect" id="node54" href="$d9/dad/TOF_2simulation_2include_2TOFSimulation_2MCLabel_8h.html" title="TOFSimulation/MCLabel.h" alt="" coords="1583,283,1759,309"/>
+<area shape="rect" id="node55" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="1607,441,1759,482"/>
+<area shape="rect" id="node59" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="3706,200,3944,227"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Strip.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Strip.h">
+<area shape="rect" id="node2" href="$df/d9c/TOF_2base_2include_2TOFBase_2Digit_8h.html" title="TOFBase/Digit.h" alt="" coords="1017,208,1137,235"/>
+<area shape="rect" id="node12" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="906,299,1072,325"/>
+<area shape="rect" id="node22" href="$d5/d3c/TOF_2simulation_2include_2TOFSimulation_2Detector_8h.html" title="TOFSimulation/Detector.h" alt="" coords="1663,125,1837,152"/>
+<area shape="rect" id="node3" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1148,299,1375,325"/>
+<area shape="rect" id="node19" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="215,389,381,416"/>
+<area shape="rect" id="node23" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="2279,208,2453,235"/>
+<area shape="rect" id="node40" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="3155,299,3349,325"/>
+<area shape="rect" id="node44" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="1692,208,1808,235"/>
+<area shape="rect" id="node45" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1516,201,1668,242"/>
+<area shape="rect" id="node28" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="1871,299,2091,325"/>
+<area shape="rect" id="node35" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="3133,389,3328,416"/>
+</map>

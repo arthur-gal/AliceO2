@@ -1,0 +1,8 @@
+digraph "o2::mcstepanalysis::ROOTIOUtilities"
+{
+ // INTERACTIVE_SVG=YES
+  bgcolor="transparent";
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{o2::mcstepanalysis\l::ROOTIOUtilities\n||+ ROOTIOUtilities()\l+ ~ROOTIOUtilities()\l+ close()\l+ changeToTDirectory()\l+ hasObject()\l+ writeObject()\l+ writeObject()\l+ readObject()\l+ readObject()\l+ readObject()\l+ readObject()\l+ changeToTTree()\l+ changeToTTree()\l+ setBranch()\l+ resetTTreeCounter()\l+ resetTTreeConnection()\l+ closeTTree()\l+ processTTree()\l+ finalizeTTree()\l+ changeTFile()\l+ changeTFileMode()\l+ getTTreename()\l+ nEntries()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+}

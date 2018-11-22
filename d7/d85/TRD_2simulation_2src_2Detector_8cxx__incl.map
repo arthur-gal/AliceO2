@@ -1,0 +1,20 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TRD/simulation/src/Detector.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TRD/simulation/src/Detector.cxx">
+<area shape="rect" id="node2" href="$df/df0/TRD_2simulation_2include_2TRDSimulation_2Detector_8h.html" title="TRDSimulation/Detector.h" alt="" coords="2563,133,2739,160"/>
+<area shape="rect" id="node23" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="1613,315,1808,341"/>
+<area shape="rect" id="node42" href="$da/d32/TRDCommonParam_8h.html" title="TRDBase/TRDCommonParam.h" alt="" coords="3333,133,3547,160"/>
+<area shape="rect" id="node44" href="$dd/d07/TRDGeometry_8h.html" title="TRDBase/TRDGeometry.h" alt="" coords="2957,224,3136,251"/>
+<area shape="rect" id="node45" href="$d4/d03/simulation_2include_2SimulationDataFormat_2Stack_8h.html" title="SimulationDataFormat\l/Stack.h" alt="" coords="4160,126,4312,167"/>
+<area shape="rect" id="node4" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="2563,224,2737,251"/>
+<area shape="rect" id="node27" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1501,217,1653,258"/>
+<area shape="rect" id="node10" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="1934,315,2153,341"/>
+<area shape="rect" id="node18" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="1721,405,1916,432"/>
+<area shape="rect" id="node28" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1179,315,1345,341"/>
+<area shape="rect" id="node36" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="143,405,309,432"/>
+<area shape="rect" id="node43" href="$d9/df4/TRDSimParam_8h.html" title="TRDBase/TRDSimParam.h" alt="" coords="3263,224,3447,251"/>
+<area shape="rect" id="node46" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="4840,307,5048,349"/>
+<area shape="rect" id="node54" href="$d2/de2/MCTrack_8h.html" title="Definition of the MCTrack class. " alt="" coords="4244,217,4396,258"/>
+<area shape="rect" id="node62" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="4797,217,4949,258"/>
+<area shape="rect" id="node66" href="$d5/dbe/TrackReference_8h.html" title="SimulationDataFormat\l/TrackReference.h" alt="" coords="3715,217,3867,258"/>
+<area shape="rect" id="node50" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="4787,405,4907,432"/>
+<area shape="rect" id="node52" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="4558,496,4796,523"/>
+</map>

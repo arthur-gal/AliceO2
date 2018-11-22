@@ -1,0 +1,14 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Framework/Core/test/test_DataSamplingPolicy.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Framework/Core/test/test_DataSamplingPolicy.cxx">
+<area shape="rect" id="node4" href="$d2/d1b/DataSamplingPolicy_8h.html" title="A declaration of O2 Data Sampling Policy. " alt="" coords="1733,125,1952,152"/>
+<area shape="rect" id="node32" href="$d5/dfb/DataRef_8h.html" title="Framework/DataRef.h" alt="" coords="2014,283,2164,309"/>
+<area shape="rect" id="node33" href="$d6/dc9/DataProcessingHeader_8h.html" title="Framework/DataProcessing\lHeader.h" alt="" coords="2189,275,2373,317"/>
+<area shape="rect" id="node5" href="$dc/dcd/DataHeader_8h.html" title="Headers/DataHeader.h" alt="" coords="1714,365,1869,392"/>
+<area shape="rect" id="node14" href="$d5/d3f/InputSpec_8h.html" title="Framework/InputSpec.h" alt="" coords="1423,200,1584,227"/>
+<area shape="rect" id="node17" href="$d3/ddf/Output_8h.html" title="Framework/Output.h" alt="" coords="1257,200,1397,227"/>
+<area shape="rect" id="node30" href="$db/d2d/OutputSpec_8h.html" title="Framework/OutputSpec.h" alt="" coords="1609,200,1780,227"/>
+<area shape="rect" id="node31" href="$dd/dcf/DataSamplingCondition_8h.html" title="A standarised data sampling condition, to decide if given data sample should be passed forward..." alt="" coords="1906,200,2144,227"/>
+<area shape="rect" id="node13" href="$d7/df8/Types_8h.html" title="MemoryResources/Types.h" alt="" coords="1897,448,2079,475"/>
+<area shape="rect" id="node15" href="$dc/dca/Lifetime_8h.html" title="Framework/Lifetime.h" alt="" coords="1437,283,1584,309"/>
+<area shape="rect" id="node18" href="$d4/d00/Headers_2include_2Headers_2Stack_8h.html" title="Headers/Stack.h" alt="" coords="1191,283,1311,309"/>
+<area shape="rect" id="node19" href="$dc/d03/MemoryResources_8h.html" title="MemoryResources/MemoryResources.h" alt="" coords="861,365,1117,392"/>
+</map>

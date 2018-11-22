@@ -1,0 +1,15 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/src/DigitizerTask.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/src/DigitizerTask.cxx">
+<area shape="rect" id="node2" href="$d6/d0e/EMCAL_2simulation_2include_2EMCALSimulation_2DigitizerTask_8h.html" title="EMCALSimulation/Digitizer\lTask.h" alt="" coords="563,126,744,167"/>
+<area shape="rect" id="node6" href="$d5/d8b/EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="583,291,712,317"/>
+<area shape="rect" id="node26" href="$d8/d19/EMCAL_2simulation_2include_2EMCALSimulation_2Digitizer_8h.html" title="EMCALSimulation/Digitizer.h" alt="" coords="857,216,1049,243"/>
+<area shape="rect" id="node36" href="$dd/da8/EMCAL_2base_2include_2EMCALBase_2Geometry_8h.html" title="EMCALBase/Geometry.h" alt="" coords="1356,291,1527,317"/>
+<area shape="rect" id="node45" href="$d5/d5e/GeometryBase_8h.html" title="EMCALBase/GeometryBase.h" alt="" coords="2171,373,2369,400"/>
+<area shape="rect" id="node7" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="925,366,1077,407"/>
+<area shape="rect" id="node19" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="491,373,685,400"/>
+<area shape="rect" id="node8" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1225,464,1391,491"/>
+<area shape="rect" id="node16" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1439,555,1605,581"/>
+<area shape="rect" id="node20" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="159,464,353,491"/>
+<area shape="rect" id="node32" href="$dd/dc7/EMCAL_2base_2include_2EMCALBase_2Digit_8h.html" title="EMCALBase/Digit.h" alt="" coords="761,373,900,400"/>
+<area shape="rect" id="node34" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="923,464,1149,491"/>
+<area shape="rect" id="node44" href="$d4/d82/Detectors_2EMCAL_2base_2include_2EMCALBase_2Constants_8h.html" title="EMCALBase/Constants.h" alt="" coords="1872,373,2045,400"/>
+</map>

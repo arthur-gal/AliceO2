@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$d6/d00/classo2_1_1memory__resource_1_1FairMQMemoryResource.html" title="All FairMQ related memory resources need to inherit from this interface class for the getMessage() ap..." alt="" coords="181,70,357,111"/>
+<area shape="rect" id="node3" href="$db/da9/classo2_1_1memory__resource_1_1ChannelResource.html" title="o2::memory_resource\l::ChannelResource" alt="" coords="429,5,577,46"/>
+<area shape="rect" id="node4" href="$da/d3c/classo2_1_1memory__resource_1_1MessageResource.html" title="o2::memory_resource\l::MessageResource" alt="" coords="429,70,577,111"/>
+<area shape="rect" id="node5" href="$de/d47/classo2_1_1memory__resource_1_1SpectatorMessageResource.html" title="o2::memory_resource\l::SpectatorMessageResource" alt="" coords="405,135,600,177"/>
+</map>

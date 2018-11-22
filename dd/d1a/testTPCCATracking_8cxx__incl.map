@@ -1,0 +1,20 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/reconstruction/test/testTPCCATracking.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TPC/reconstruction/test/testTPCCATracking.cxx">
+<area shape="rect" id="node3" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="200,373,399,400"/>
+<area shape="rect" id="node4" href="$db/df1/Helpers_8h.html" title="Helper class for memory management of TPC Data Formats, external from the actual data type classes to..." alt="" coords="507,200,692,227"/>
+<area shape="rect" id="node9" href="$de/dcd/ClusterNative_8h.html" title="Class of a TPC cluster in TPC&#45;native coordinates (row, time) " alt="" coords="379,283,599,309"/>
+<area shape="rect" id="node14" href="$d5/dc9/TrackTPC_8h.html" title="DataFormatsTPC/TrackTPC.h" alt="" coords="920,200,1119,227"/>
+<area shape="rect" id="node49" href="$df/d30/TPCCATracking_8h.html" title="Decoder to convert TPC ClusterHardware to ClusterNative. " alt="" coords="576,125,823,152"/>
+<area shape="rect" id="node7" href="$d3/dc4/ClusterHardware_8h.html" title="Class of a TPC cluster as produced by the hardware cluster finder (needs a postprocessing step to con..." alt="" coords="109,555,347,581"/>
+<area shape="rect" id="node13" href="$d8/dc8/ClusterGroupAttribute_8h.html" title="Meta data for a group describing it by sector number and global padrow. " alt="" coords="435,547,641,589"/>
+<area shape="rect" id="node15" href="$d7/d8b/DataFormats_2Reconstruction_2include_2ReconstructionDataFormats_2Track_8h.html" title="ReconstructionDataFormats\l/Track.h" alt="" coords="1397,275,1584,317"/>
+<area shape="rect" id="node46" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="2745,464,2913,491"/>
+<area shape="rect" id="node47" href="$dc/ddf/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Cluster_8h.html" title="DataFormatsTPC/Cluster.h" alt="" coords="870,283,1052,309"/>
+<area shape="rect" id="node24" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="781,736,1019,763"/>
+<area shape="rect" id="node25" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2049,555,2215,581"/>
+<area shape="rect" id="node35" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="888,645,1008,672"/>
+<area shape="rect" id="node36" href="$d4/de2/BaseCluster_8h.html" title="ReconstructionDataFormats\l/BaseCluster.h" alt="" coords="1612,366,1799,407"/>
+<area shape="rect" id="node32" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="3061,645,3227,672"/>
+<area shape="rect" id="node41" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="1072,457,1280,498"/>
+<area shape="rect" id="node43" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="1021,547,1229,589"/>
+<area shape="rect" id="node48" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="1304,464,1531,491"/>
+</map>

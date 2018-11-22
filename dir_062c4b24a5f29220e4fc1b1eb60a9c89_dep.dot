@@ -1,0 +1,10 @@
+digraph "/home/travis/build/AliceO2Group/AliceO2/Utilities/MCStepLogger/include/MCStepLogger" {
+  bgcolor=transparent;
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_adf3e7704c4cabadd511d1c5282c0faa {
+    graph [ bgcolor="#ddddee", pencolor="black", label="include" fontname="Helvetica", fontsize="10", URL="dir_adf3e7704c4cabadd511d1c5282c0faa.html"]
+  dir_062c4b24a5f29220e4fc1b1eb60a9c89 [shape=box, label="MCStepLogger", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_062c4b24a5f29220e4fc1b1eb60a9c89.html"];
+  }
+}

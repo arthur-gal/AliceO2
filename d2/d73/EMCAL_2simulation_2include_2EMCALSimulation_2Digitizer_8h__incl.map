@@ -1,0 +1,13 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/Digitizer.h">
+<area shape="rect" id="node8" href="$dd/dc7/EMCAL_2base_2include_2EMCALBase_2Digit_8h.html" title="EMCALBase/Digit.h" alt="" coords="421,208,560,235"/>
+<area shape="rect" id="node13" href="$dd/da8/EMCAL_2base_2include_2EMCALBase_2Geometry_8h.html" title="EMCALBase/Geometry.h" alt="" coords="1037,125,1208,152"/>
+<area shape="rect" id="node23" href="$d5/d5e/GeometryBase_8h.html" title="EMCALBase/GeometryBase.h" alt="" coords="1617,208,1816,235"/>
+<area shape="rect" id="node34" href="$d5/d8b/EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="1903,125,2032,152"/>
+<area shape="rect" id="node11" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="368,299,595,325"/>
+<area shape="rect" id="node22" href="$d4/d82/Detectors_2EMCAL_2base_2include_2EMCALBase_2Constants_8h.html" title="EMCALBase/Constants.h" alt="" coords="683,208,856,235"/>
+<area shape="rect" id="node25" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1119,299,1285,325"/>
+<area shape="rect" id="node31" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1569,389,1735,416"/>
+<area shape="rect" id="node35" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1892,201,2044,242"/>
+<area shape="rect" id="node36" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="2216,208,2411,235"/>
+<area shape="rect" id="node37" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="2216,299,2411,325"/>
+</map>

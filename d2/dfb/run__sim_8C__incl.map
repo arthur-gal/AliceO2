@@ -1,0 +1,31 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/macro/run_sim.C" name="/home/travis/build/AliceO2Group/AliceO2/macro/run_sim.C">
+<area shape="rect" id="node13" href="$d9/d6d/Cave_8h.html" title="DetectorsPassive/Cave.h" alt="" coords="1192,184,1364,211"/>
+<area shape="rect" id="node17" href="$db/d4b/MagneticField_8h.html" title="Definition of the MagF class. " alt="" coords="385,109,532,136"/>
+<area shape="rect" id="node41" href="$df/d9a/ITS_2base_2include_2ITSBase_2GeometryTGeo_8h.html" title="ITSBase/GeometryTGeo.h" alt="" coords="1863,109,2040,136"/>
+<area shape="rect" id="node59" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="734,109,964,136"/>
+<area shape="rect" id="node60" href="$d6/d8d/ITSMFT_2ITS_2simulation_2include_2ITSSimulation_2Detector_8h.html" title="ITSSimulation/Detector.h" alt="" coords="3316,109,3485,136"/>
+<area shape="rect" id="node83" href="$da/d96/TPC_2simulation_2include_2TPCSimulation_2Detector_8h.html" title="TPCSimulation/Detector.h" alt="" coords="3668,109,3842,136"/>
+<area shape="rect" id="node19" href="$d3/d91/MagFieldParam_8h.html" title="Definition of the MagFieldParam: container for ALICE mag. field parameters. " alt="" coords="194,184,349,211"/>
+<area shape="rect" id="node21" href="$dd/dfb/MagneticWrapperChebyshev_8h.html" title="Field/MagneticWrapperChebyshev.h" alt="" coords="532,184,765,211"/>
+<area shape="rect" id="node27" href="$da/df4/MagFieldFast_8h.html" title="Definition of the fast magnetic field parametrization MagFieldFast. " alt="" coords="1669,184,1813,211"/>
+<area shape="rect" id="node24" href="$d8/d64/Chebyshev3D_8h.html" title="MathUtils/Chebyshev3D.h" alt="" coords="561,267,737,293"/>
+<area shape="rect" id="node26" href="$d4/d08/Chebyshev3DCalc_8h.html" title="MathUtils/Chebyshev3DCalc.h" alt="" coords="422,357,625,384"/>
+<area shape="rect" id="node29" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="3798,357,3964,384"/>
+<area shape="rect" id="node37" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="5491,448,5657,475"/>
+<area shape="rect" id="node44" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="2046,184,2276,211"/>
+<area shape="rect" id="node48" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="3105,350,3313,391"/>
+<area shape="rect" id="node53" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="2990,448,3110,475"/>
+<area shape="rect" id="node57" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="1440,184,1644,211"/>
+<area shape="rect" id="node55" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="2952,539,3190,565"/>
+<area shape="rect" id="node58" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="2809,259,3017,301"/>
+<area shape="rect" id="node61" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="3852,184,4026,211"/>
+<area shape="rect" id="node78" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="4349,184,4512,211"/>
+<area shape="rect" id="node65" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="4367,267,4586,293"/>
+<area shape="rect" id="node70" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="4926,357,5121,384"/>
+<area shape="rect" id="node75" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="4865,267,5060,293"/>
+<area shape="rect" id="node79" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="5084,259,5236,301"/>
+<area shape="rect" id="node84" href="$d4/de5/Point_8h.html" title="Class for TPC Point. " alt="" coords="4568,184,4721,211"/>
+<area shape="rect" id="node85" href="$d3/dd6/Sector_8h.html" title="TPCBase/Sector.h" alt="" coords="5294,184,5425,211"/>
+<area shape="rect" id="node86" href="$d0/dda/DataFormats_2Detectors_2TPC_2include_2DataFormatsTPC_2Constants_8h.html" title="DataFormatsTPC/Constants.h" alt="" coords="5260,267,5458,293"/>
+<area shape="rect" id="node87" href="$d1/d73/Defs_8h.html" title="Common definitions for 2D coordinates. " alt="" coords="5484,267,5652,293"/>
+</map>

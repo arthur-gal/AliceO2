@@ -1,0 +1,4 @@
+<map id="o2::mcstepanalysis::BasicMCAnalysis" name="o2::mcstepanalysis::BasicMCAnalysis">
+<area shape="rect" id="node2" href="$de/da4/classo2_1_1mcstepanalysis_1_1MCAnalysis.html" title="{o2::mcstepanalysis\l::MCAnalysis\n||+ MCAnalysis()\l+ ~MCAnalysis()\l# initialize()\l# analyze()\l# finalize()\l# getHistogram()\l# getHistogram()\l# getHistogram()\l# setAnalysisFile()\l# isInitialized()\l# name()\l}" alt="" coords="30,398,164,637"/>
+<area shape="rect" id="node3" href="$d8/d26/classo2_1_1mcstepanalysis_1_1MCAnalysisManager.html" title="{o2::mcstepanalysis\l::MCAnalysisManager\n||+ checkReadiness()\l+ run()\l+ dryrun()\l+ write()\l+ terminate()\l+ setInputFilepath()\l+ registerAnalysis()\l+ setLabel()\l+ setStepLoggerTreename()\l+ getEventNumber()\l+ getLookupVolName()\l+ getLookupModName()\l+ getLookupMedName()\l+ getLookupPDG()\l+ getLookupParent()\l+ printAnalyses()\l+ Instance()\l}" alt="" coords="5,6,189,333"/>
+</map>

@@ -1,0 +1,26 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/MFT/simulation/include/MFTSimulation/DigitizerTask.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/MFT/simulation/include/MFTSimulation/DigitizerTask.h">
+<area shape="rect" id="node6" href="$df/d29/DigiParams_8h.html" title="Simulation parameters for the ALIPIDE chip. " alt="" coords="1585,221,1799,248"/>
+<area shape="rect" id="node8" href="$d7/d9c/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Digitizer_8h.html" title="ITSMFTSimulation/Digitizer.h" alt="" coords="1017,139,1212,165"/>
+<area shape="rect" id="node13" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="711,395,863,437"/>
+<area shape="rect" id="node19" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="2147,221,2309,248"/>
+<area shape="rect" id="node57" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="4132,395,4284,437"/>
+<area shape="rect" id="node7" href="$d1/d47/AlpideSignalTrapezoid_8h.html" title="Simple class describing ALPIDE signal time shape. " alt="" coords="1479,395,1685,437"/>
+<area shape="rect" id="node12" href="$da/d93/ChipDigitsContainer_8h.html" title="transient container for single chip digits accumulation " alt="" coords="774,214,969,255"/>
+<area shape="rect" id="node16" href="$dc/d1a/AlpideSimResponse_8h.html" title="Definition of the ITSMFT Alpide simulated response parametrization. " alt="" coords="1265,305,1460,346"/>
+<area shape="rect" id="node40" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="1357,221,1560,248"/>
+<area shape="rect" id="node51" href="$d0/d06/ITSMFT_2common_2base_2include_2ITSMFTBase_2Digit_8h.html" title="ITSMFTBase/Digit.h" alt="" coords="555,221,697,248"/>
+<area shape="rect" id="node53" href="$d5/d08/ROFRecord_8h.html" title="Definition of the ITSMFT ROFrame (trigger) record. " alt="" coords="281,312,511,339"/>
+<area shape="rect" id="node14" href="$d2/d53/PreDigit_8h.html" title="Definition of the digit contribution from single hit. " alt="" coords="825,312,1017,339"/>
+<area shape="rect" id="node20" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2265,305,2417,346"/>
+<area shape="rect" id="node33" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="2441,312,2636,339"/>
+<area shape="rect" id="node21" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="2266,403,2432,429"/>
+<area shape="rect" id="node29" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="2570,493,2736,520"/>
+<area shape="rect" id="node34" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="3672,403,3867,429"/>
+<area shape="rect" id="node42" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="1753,305,1961,346"/>
+<area shape="rect" id="node44" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="1983,395,2191,437"/>
+<area shape="rect" id="node48" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="1529,493,1649,520"/>
+<area shape="rect" id="node50" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="1542,584,1780,611"/>
+<area shape="rect" id="node54" href="$d6/ddf/EvIndex_8h.html" title="Class to store event ID and index in the event for objects like track, cluster... ..." alt="" coords="305,403,511,429"/>
+<area shape="rect" id="node55" href="$d9/d80/InteractionRecord_8h.html" title="CommonDataFormat/Interaction\lRecord.h" alt="" coords="19,395,228,437"/>
+<area shape="rect" id="node56" href="$d4/dc6/LHCConstants_8h.html" title="Header to collect LHC related constants. " alt="" coords="5,493,241,520"/>
+</map>

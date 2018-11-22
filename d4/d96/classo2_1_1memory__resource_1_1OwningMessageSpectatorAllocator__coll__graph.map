@@ -1,0 +1,4 @@
+<map id="o2::memory_resource::OwningMessageSpectatorAllocator&lt; T &gt;" name="o2::memory_resource::OwningMessageSpectatorAllocator&lt; T &gt;">
+<area shape="rect" id="node2" href="$da/d3c/classo2_1_1memory__resource_1_1MessageResource.html" title="{o2::memory_resource\l::MessageResource\n||+ MessageResource()\l+ MessageResource()\l+ MessageResource()\l+ operator=()\l+ operator=()\l+ MessageResource()\l+ getMessage()\l+ setMessage()\l+ getTransportFactory()\l+ getNumberOfMessages()\l# do_allocate()\l# do_deallocate()\l# do_is_equal()\l}" alt="" coords="98,350,277,618"/>
+<area shape="rect" id="node3" href="$d6/d00/classo2_1_1memory__resource_1_1FairMQMemoryResource.html" title="All FairMQ related memory resources need to inherit from this interface class for the getMessage() ap..." alt="" coords="5,149,184,285"/>
+</map>

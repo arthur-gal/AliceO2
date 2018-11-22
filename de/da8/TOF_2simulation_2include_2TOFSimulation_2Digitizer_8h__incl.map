@@ -1,0 +1,17 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Digitizer.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/TOF/simulation/include/TOFSimulation/Digitizer.h">
+<area shape="rect" id="node2" href="$d4/d54/Geo_8h.html" title="TOFBase/Geo.h" alt="" coords="2060,299,2176,325"/>
+<area shape="rect" id="node4" href="$df/d9c/TOF_2base_2include_2TOFBase_2Digit_8h.html" title="TOFBase/Digit.h" alt="" coords="2343,299,2463,325"/>
+<area shape="rect" id="node8" href="$d5/d3c/TOF_2simulation_2include_2TOFSimulation_2Detector_8h.html" title="TOFSimulation/Detector.h" alt="" coords="1591,208,1765,235"/>
+<area shape="rect" id="node43" href="$dd/d77/Strip_8h.html" title="TOFSimulation/Strip.h" alt="" coords="1839,125,1989,152"/>
+<area shape="rect" id="node47" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="2596,291,2748,333"/>
+<area shape="rect" id="node51" href="$d9/dad/TOF_2simulation_2include_2TOFSimulation_2MCLabel_8h.html" title="TOFSimulation/MCLabel.h" alt="" coords="2015,125,2191,152"/>
+<area shape="rect" id="node5" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="2420,389,2647,416"/>
+<area shape="rect" id="node9" href="$d1/d3a/Base_2include_2DetectorsBase_2Detector_8h.html" title="DetectorsBase/Detector.h" alt="" coords="1211,299,1385,325"/>
+<area shape="rect" id="node28" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="295,389,489,416"/>
+<area shape="rect" id="node32" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="2851,291,3003,333"/>
+<area shape="rect" id="node16" href="$d0/d9a/MaterialManager_8h.html" title="DetectorsBase/MaterialManager.h" alt="" coords="763,389,983,416"/>
+<area shape="rect" id="node23" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="271,480,465,507"/>
+<area shape="rect" id="node33" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="3015,389,3181,416"/>
+<area shape="rect" id="node40" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="3818,480,3984,507"/>
+<area shape="rect" id="node52" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="2039,201,2191,242"/>
+</map>

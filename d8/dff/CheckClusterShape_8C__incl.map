@@ -1,0 +1,20 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/macros/test/CheckClusterShape.C" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/ITS/macros/test/CheckClusterShape.C">
+<area shape="rect" id="node8" href="$df/d9a/ITS_2base_2include_2ITSBase_2GeometryTGeo_8h.html" title="ITSBase/GeometryTGeo.h" alt="" coords="1510,125,1687,152"/>
+<area shape="rect" id="node43" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="425,208,655,235"/>
+<area shape="rect" id="node44" href="$d0/d06/ITSMFT_2common_2base_2include_2ITSMFTBase_2Digit_8h.html" title="ITSMFTBase/Digit.h" alt="" coords="357,125,499,152"/>
+<area shape="rect" id="node45" href="$d4/de5/Point_8h.html" title="Class for TPC Point. " alt="" coords="1171,208,1324,235"/>
+<area shape="rect" id="node53" href="$d6/db4/ClusterShape_8h.html" title="Cluster shape class for the ALPIDE response simulation. " alt="" coords="2955,201,3132,242"/>
+<area shape="rect" id="node56" href="$db/d14/MCTruthContainer_8h.html" title="Definition of a container to keep Monte Carlo truth external to simulation objects. " alt="" coords="2964,382,3116,423"/>
+<area shape="rect" id="node60" href="$d7/dcd/MCCompLabel_8h.html" title="SimulationDataFormat\l/MCCompLabel.h" alt="" coords="680,201,832,242"/>
+<area shape="rect" id="node14" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="2110,208,2340,235"/>
+<area shape="rect" id="node20" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="2233,382,2441,423"/>
+<area shape="rect" id="node26" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="2648,480,2768,507"/>
+<area shape="rect" id="node40" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="1567,208,1771,235"/>
+<area shape="rect" id="node30" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1166,389,1332,416"/>
+<area shape="rect" id="node28" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="2502,571,2740,597"/>
+<area shape="rect" id="node37" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="663,480,829,507"/>
+<area shape="rect" id="node42" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="1748,291,1956,333"/>
+<area shape="rect" id="node46" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1173,291,1325,333"/>
+<area shape="rect" id="node47" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="955,299,1149,325"/>
+<area shape="rect" id="node48" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="155,389,349,416"/>
+</map>

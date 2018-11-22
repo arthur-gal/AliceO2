@@ -1,0 +1,13 @@
+<map id="o2::dataformats::TimeStamp&lt; T &gt;" name="o2::dataformats::TimeStamp&lt; T &gt;">
+<area shape="rect" id="node2" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; T \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="791,331,979,467"/>
+<area shape="rect" id="node5" href="$d5/d5a/classo2_1_1EMCAL_1_1Digit.html" title="EMCAL digit implementation. " alt="" coords="217,279,404,518"/>
+<area shape="rect" id="node6" href="$df/dbc/classo2_1_1phos_1_1Digit.html" title="{o2::phos::Digit\&lt; double \&gt;\n|+ kMaxLabels\l+ kTimeGate\l|+ Digit()\l+ Digit()\l+ Digit()\l+ ~Digit()\l+ FillFromHit()\l+ operator\&lt;()\l+ operator\&gt;()\l+ canAdd()\l+ operator+=()\l+ getAbsId()\l+ setAbsId()\l+ getAmplitude()\l+ setAmplitude()\l+ getTime()\l+ setTime()\l+ isHighGain()\l+ setHighGain()\l+ getLabel()\l+ getLabelEProp()\l+ getNLabels()\l+ PrintStream()\l}" alt="" coords="429,206,597,591"/>
+<area shape="rect" id="node7" href="$dd/def/classo2_1_1TPC_1_1Digit.html" title="{o2::TPC::Digit\&lt; int \&gt;\n|# mCharge\l# mCRU\l# mRow\l# mPad\l|+ Digit()\l+ Digit()\l+ ~Digit()\l+ getCharge()\l+ getChargeFloat()\l+ getCRU()\l+ getRow()\l+ getPad()\l# ClassDefNV()\l}" alt="" coords="623,279,767,518"/>
+<area shape="rect" id="node8" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\l\&lt; double \&gt;\n||+ TimeStamp()\l+ TimeStamp()\l+ getTimeStamp()\l+ setTimeStamp()\l+ operator==()\l}" alt="" coords="1003,323,1191,474"/>
+<area shape="rect" id="node12" href="$d0/d94/classo2_1_1dataformats_1_1TimeStamp.html" title="{o2::dataformats::TimeStamp\l\&lt; float \&gt;\n||+ TimeStamp()\l+ TimeStamp()\l+ getTimeStamp()\l+ setTimeStamp()\l+ operator==()\l}" alt="" coords="5,323,192,474"/>
+<area shape="rect" id="node3" href="$d3/dbf/classo2_1_1dataformats_1_1TimeStampWithError.html" title="{o2::dataformats::TimeStamp\lWithError\&lt; float, float \&gt;\n||+ TimeStampWithError()\l+ TimeStampWithError()\l+ getTimeStampError()\l+ setTimeStampError()\l}" alt="" coords="325,759,512,895"/>
+<area shape="rect" id="node4" href="$de/dd5/classo2_1_1TPC_1_1Cluster.html" title="Cluster class for the TPC. " alt="" coords="355,1049,481,1317"/>
+<area shape="rect" id="node9" href="$db/df9/classo2_1_1fit_1_1Digit.html" title="FIT digit implementation. " alt="" coords="1036,671,1159,983"/>
+<area shape="rect" id="node10" href="$d3/d03/classo2_1_1hmpid_1_1Digit.html" title="HMPID digit implementation. " alt="" coords="1183,759,1297,895"/>
+<area shape="rect" id="node11" href="$d8/db4/classo2_1_1tof_1_1Digit.html" title="TOF digit implementation. " alt="" coords="857,656,1011,997"/>
+</map>

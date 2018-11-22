@@ -1,0 +1,17 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/test/HitAnalysis/src/HitAnalysis.cxx" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/ITSMFT/test/HitAnalysis/src/HitAnalysis.cxx">
+<area shape="rect" id="node2" href="$da/d9d/HitAnalysis_8h.html" title="HitAnalysis/HitAnalysis.h" alt="" coords="1931,125,2101,152"/>
+<area shape="rect" id="node6" href="$d0/dae/ITSMFT_2common_2simulation_2include_2ITSMFTSimulation_2Hit_8h.html" title="ITSMFTSimulation/Hit.h" alt="" coords="1556,200,1719,227"/>
+<area shape="rect" id="node8" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1451,373,1617,400"/>
+<area shape="rect" id="node31" href="$df/d9a/ITS_2base_2include_2ITSBase_2GeometryTGeo_8h.html" title="ITSBase/GeometryTGeo.h" alt="" coords="2955,125,3132,152"/>
+<area shape="rect" id="node44" href="$d9/d52/Common_2MathUtils_2include_2MathUtils_2Utils_8h.html" title="MathUtils/Utils.h" alt="" coords="3656,464,3776,491"/>
+<area shape="rect" id="node50" href="$d3/dba/SegmentationAlpide_8h.html" title="Definition of the SegmentationAlpide class. " alt="" coords="1675,125,1905,152"/>
+<area shape="rect" id="node7" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="1459,275,1611,317"/>
+<area shape="rect" id="node20" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="1685,283,1880,309"/>
+<area shape="rect" id="node16" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1343,464,1509,491"/>
+<area shape="rect" id="node21" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="187,373,381,400"/>
+<area shape="rect" id="node35" href="$db/dcc/Detectors_2Base_2include_2DetectorsBase_2GeometryManager_8h.html" title="DetectorsBase/GeometryManager.h" alt="" coords="2665,200,2895,227"/>
+<area shape="rect" id="node40" href="$d6/d31/DetID_8h.html" title="DetectorsCommonDataFormats\l/DetID.h" alt="" coords="3273,366,3481,407"/>
+<area shape="rect" id="node47" href="$d0/d2d/common_2base_2include_2ITSMFTBase_2GeometryTGeo_8h.html" title="ITSMFTBase/GeometryTGeo.h" alt="" coords="3193,200,3396,227"/>
+<area shape="rect" id="node46" href="$d6/d84/MathConstants_8h.html" title="useful math constants " alt="" coords="3510,555,3748,581"/>
+<area shape="rect" id="node49" href="$d4/d20/DetMatrixCache_8h.html" title="DetectorsCommonDataFormats\l/DetMatrixCache.h" alt="" coords="3132,275,3340,317"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/DigitizerTask.h" name="/home/travis/build/AliceO2Group/AliceO2/Detectors/EMCAL/simulation/include/EMCALSimulation/DigitizerTask.h">
+<area shape="rect" id="node5" href="$d5/d8b/EMCAL_2base_2include_2EMCALBase_2Hit_8h.html" title="EMCALBase/Hit.h" alt="" coords="1075,200,1204,227"/>
+<area shape="rect" id="node25" href="$d8/d19/EMCAL_2simulation_2include_2EMCALSimulation_2Digitizer_8h.html" title="EMCALSimulation/Digitizer.h" alt="" coords="1952,125,2144,152"/>
+<area shape="rect" id="node6" href="$d4/d25/BaseHits_8h.html" title="SimulationDataFormat\l/BaseHits.h" alt="" coords="920,275,1072,317"/>
+<area shape="rect" id="node18" href="$d0/d91/ShmAllocator_8h.html" title="CommonUtils/ShmAllocator.h" alt="" coords="619,283,813,309"/>
+<area shape="rect" id="node7" href="$dd/d76/Cartesian3D_8h.html" title="MathUtils/Cartesian3D.h" alt="" coords="1290,373,1456,400"/>
+<area shape="rect" id="node15" href="$d2/dd0/Cartesian2D_8h.html" title="MathUtils/Cartesian2D.h" alt="" coords="1739,464,1905,491"/>
+<area shape="rect" id="node19" href="$de/d61/ShmManager_8h.html" title="CommonUtils/ShmManager.h" alt="" coords="299,373,493,400"/>
+<area shape="rect" id="node31" href="$dd/dc7/EMCAL_2base_2include_2EMCALBase_2Digit_8h.html" title="EMCALBase/Digit.h" alt="" coords="2487,283,2627,309"/>
+<area shape="rect" id="node35" href="$dd/da8/EMCAL_2base_2include_2EMCALBase_2Geometry_8h.html" title="EMCALBase/Geometry.h" alt="" coords="1689,200,1860,227"/>
+<area shape="rect" id="node44" href="$d5/d5e/GeometryBase_8h.html" title="EMCALBase/GeometryBase.h" alt="" coords="2165,283,2364,309"/>
+<area shape="rect" id="node33" href="$df/d5d/common_2include_2CommonDataFormat_2TimeStamp_8h.html" title="CommonDataFormat/TimeStamp.h" alt="" coords="2743,373,2969,400"/>
+<area shape="rect" id="node43" href="$d4/d82/Detectors_2EMCAL_2base_2include_2EMCALBase_2Constants_8h.html" title="EMCALBase/Constants.h" alt="" coords="1688,283,1861,309"/>
+</map>
