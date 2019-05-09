@@ -1,0 +1,655 @@
+[INFO] Loading field from GRP of o2sim_grp.root 
+Run: 1549385754
+Fill:      0
+Period: 
+LHC State: 
+Start: Tue Feb  5 17:55:54 2019
+End  : Tue Feb  5 17:55:54 2019
+Beam0: Z:A =   0:  0, Energy = 0.000
+Beam1: Z:A =   0:  0, Energy = 0.000
+sqrt[s]    = 0.000
+crossing angle (radian) = 0.000000e+00
+magnet currents (A) L3 = -30000.000, Dipole = -6000
+Detectors: Cont.RO Triggers
+      ITS:    -       -    
+[INFO] MagneticField::Print: MagneticFieldMap:
+[INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Common/maps/mfchebKGI_sym.root
+Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[INFO] Running with the B field constructed out of GRP 
+[INFO] Access field via TGeoGlobalMagField::Instance()->Field(xyz,bxyz) or via 
+[INFO] auto o2field = static_cast<o2::field::MagneticField*>( TGeoGlobalMagField::Instance()->GetField() ) 
+[INFO] TPC GEM SETUP FROM EXISTING CACHE
+[INFO] TPC GEM SETUP (POLYA-DISTRIBUTION) TOOK 0.31
+[INFO] TPC is in grp? no; is skipped? no
+[INFO] ITS is in grp? yes; is skipped? no
+[INFO] MFT is in grp? no; is skipped? no
+[INFO] TOF is in grp? no; is skipped? no
+[INFO] FIT is in grp? no; is skipped? no
+[INFO] EMC is in grp? no; is skipped? no
+[INFO] HMP is in grp? no; is skipped? no
+[INFO] TRD is in grp? no; is skipped? no
+[INFO] MCH is in grp? no; is skipped? no
+[INFO] Using port range [21999, 22999]
+[WARN] Could not create GUI. Switching to batch mode. Do you have GLFW on your system?
+[INFO] Initialising O2 Data Processing Layer
+[INFO] O2 Data Processing Layer initialised. We brake for nobody.
+[INFO] Redeployment of configuration asked.
+Starting SimReader on pid 56519
+Starting ITSDigitizer on pid 56520
+Starting ITSDigitWriter on pid 56521
+Starting GRPUpdater on pid 56522
+[INFO] Redeployment of configuration done.
+[56520]: [INFO] Loading field from GRP of o2sim_grp.root 
+[56519]: [INFO] Loading field from GRP of o2sim_grp.root 
+[56521]: [INFO] Loading field from GRP of o2sim_grp.root 
+[56522]: [INFO] Loading field from GRP of o2sim_grp.root 
+[56519]: Run: 1549385754
+[56519]: Fill:      0
+[56519]: Period: 
+[56519]: LHC State: 
+[56519]: Start: Tue Feb  5 17:55:54 2019
+[56519]: End  : Tue Feb  5 17:55:54 2019
+[56519]: Beam0: Z:A =   0:  0, Energy = 0.000
+[56519]: Beam1: Z:A =   0:  0, Energy = 0.000
+[56519]: sqrt[s]    = 0.000
+[56519]: crossing angle (radian) = 0.000000e+00
+[56519]: magnet currents (A) L3 = -30000.000, Dipole = -6000
+[56519]: Detectors: Cont.RO Triggers
+[56519]:       ITS:    -       -    
+[56519]: [INFO] MagneticField::Print: MagneticFieldMap:
+[56519]: [INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[56519]: [INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[56519]: [INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Common/maps/mfchebKGI_sym.root
+[56519]: [INFO] Running with the B field constructed out of GRP 
+[56519]: [INFO] Access field via TGeoGlobalMagField::Instance()->Field(xyz,bxyz) or via 
+[56519]: [INFO] auto o2field = static_cast<o2::field::MagneticField*>( TGeoGlobalMagField::Instance()->GetField() ) 
+[56519]: [INFO] TPC is in grp? no; is skipped? no
+[56519]: [INFO] ITS is in grp? yes; is skipped? no
+[56519]: Info in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[56519]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[56520]: Run: 1549385754
+[56520]: Fill:      0
+[56520]: Period: 
+[56520]: LHC State: 
+[56520]: Start: Tue Feb  5 17:55:54 2019
+[56520]: End  : Tue Feb  5 17:55:54 2019
+[56520]: Beam0: Z:A =   0:  0, Energy = 0.000
+[56520]: Beam1: Z:A =   0:  0, Energy = 0.000
+[56520]: sqrt[s]    = 0.000
+[56520]: crossing angle (radian) = 0.000000e+00
+[56520]: magnet currents (A) L3 = -30000.000, Dipole = -6000
+[56520]: Detectors: Cont.RO Triggers
+[56520]:       ITS:    -       -    
+[56520]: [INFO] MagneticField::Print: MagneticFieldMap:
+[56520]: [INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[56520]: [INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[56520]: [INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Common/maps/mfchebKGI_sym.root
+[56520]: [INFO] Running with the B field constructed out of GRP 
+[56520]: [INFO] Access field via TGeoGlobalMagField::Instance()->Field(xyz,bxyz) or via 
+[56520]: [INFO] auto o2field = static_cast<o2::field::MagneticField*>( TGeoGlobalMagField::Instance()->GetField() ) 
+[56520]: [INFO] TPC is in grp? no; is skipped? no
+[56520]: [INFO] ITS is in grp? yes; is skippeInfo in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[56520]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[56521]: Run: 1549385754
+[56521]: Fill:      0
+[56521]: Period: 
+[56521]: LHC State: 
+[56521]: Start: Tue Feb  5 17:55:54 2019
+[56521]: End  : Tue Feb  5 17:55:54 2019
+[56521]: Beam0: Z:A =   0:  0, Energy = 0.000
+[56521]: Beam1: Z:A =   0:  0, Energy = 0.000
+[56521]: sqrt[s]    = 0.000
+[56521]: crossing angle (radian) = 0.000000e+00
+[56521]: magnet currents (A) L3 = -30000.000, Dipole = -6000
+[56521]: Detectors: Cont.RO Triggers
+[56521]:       ITS:    -       -    
+[56521]: [INFO] MagneticField::Print: MagneticFieldMap:
+[56521]: [INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[56521]: [INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[56521]: [INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Common/maps/mfchebKGI_sym.root
+[56521]: [INFO] Running with the B field constructed out of GRP 
+[56521]: [INFO] Access field via TGeoGlobalMagField::Instance()->Field(xyz,bxyz) or via 
+[56521]: [INFO] auto o2field = static_cast<o2::field::MagneticField*>( TGeoGlobalMagField::Instance()->GetField() ) 
+[56521]: [INFO] TPC is in grp? no; is skipped? no
+[56521]: [INFO] ITS is in grp? yes; is skippeInfo in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[56521]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[56520]: d? no
+[56521]: d? no
+[56519]: [INFO] MFT is in grp? no; is skipped? no
+[56519]: [INFO] TOF is in grp? no; is skipped? no
+[56519]: [INFO] FIT is in grp? no; is skipped? no
+[56519]: [INFO] EMC is in grp? no; is skipped? no
+[56519]: [INFO] HMP is in grp? no; is skipped? no
+[56519]: [INFO] TRD is in grp? no; is skipped? no
+[56519]: [INFO] MCH is in grp? no; is skipped? no
+[56519]: [WARN] Could not create GUI. Switching to batch mode. Do you have GLFW on your system?
+[56519]: [INFO] Spawing new device SimReader in process with pid 56519
+[56520]: [INFO] MFT is in grp? no; is skipped? no
+[56520]: [INFO] TOF is in grp? no; is skipped? no
+[56520]: [INFO] FIT is in grp? no; is skipped? no
+[56520]: [INFO] EMC is in grp? no; is skipped? no
+[56520]: [INFO] HMP is in grp? no; is skipped? no
+[56520]: [INFO] TRD is in grp? no; is skipped? no
+[56520]: [INFO] MCH is in grp? no; is skipped? no
+[56521]: [INFO] MFT is in grp? no; is skipped? no
+[56521]: [INFO] TOF is in grp? no; is skipped? no
+[56521]: [INFO] FIT is in grp? no; is skipped? no
+[56521]: [INFO] EMC is in grp? no; is skipped? no
+[56521]: [INFO] HMP is in grp? no; is skipped? no
+[56521]: [INFO] TRD is in grp? no; is skipped? no
+[56521]: [INFO] MCH is in grp? no; is skipped? no
+[56519]: [17:55:58][INFO] Configuration: 
+[56519]: catch-signals                                        = 1                                                                                                <int>            [default] 
+[56520]: [WARN] Could not create GUI. Switching to batch mode. Do you have GLFW on your system?
+[56521]: [WARN] Could not create GUI. Switching to batch mode. Do you have GLFW on your system?
+[56521]: [INFO] Spawing new device ITSDigitWriter in process with pid 56521
+[56522]: Run: 1549385754
+[56522]: Fill:      0
+[56522]: Period: 
+[56522]: LHC State: 
+[56522]: Start: Tue Feb  5 17:55:54 2019
+[56522]: End  : Tue Feb  5 17:55:54 2019
+[56522]: Beam0: Z:A =   0:  0, Energy = 0.000
+[56522]: Beam1: Z:A =   0:  0, Energy = 0.000
+[56522]: sqrt[s]    = 0.000
+[56522]: crossing angle (radian) = 0.000000e+00
+[56522]: magnet currents (A) L3 = -30000.000, Dipole = -6000
+[56522]: Detectors: Cont.RO Triggers
+[56522]:       ITS:    -       -    
+[56522]: [INFO] MagneticField::Print: MagneticFieldMap:
+[56522]: [INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[56522]: [INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[56522]: [INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Common/maps/mfchebKGI_sym.root
+[56522]: [INFO] Running with the B field constructed out of GRP 
+[56522]: [INFO] Access field via TGeoGlobalMagField::Instance()->Field(xyz,bxyz) or via 
+[56522]: [INFO] auto o2field = static_cast<o2::field::MagneticField*>( TGeoGlobalMagField::Instance()->GetField() ) 
+[56522]: [INFO] TPC is in grp? no; is skipped? no
+[56522]: [INFO] ITS is in grp? yes; is skippeInfo in <TGeoGlobalMagField::SetField>: Global magnetic field set to <MagneticFieldMap>
+[56522]: Info in <TGeoGlobalMagField::Lock>: Global magnetic field <MagneticFieldMap> is now locked
+[56519]: channel-config                                       = name=from_SimReader_to_ITSDigitizer,type=push,method=bind,address=tcp://*:22000,rateLogging=60   <vector<string>> [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.address       = tcp://*:22000                                                                                    <string>         [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.autoBind      = 1                                                                                                <bool>           [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.linger        = 500                                                                                              <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.method        = bind                                                                                             <string>         [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.portRangeMax  = 23000                                                                                            <int>            [provided]
+[56519]: chans.from_SimReadinfoLoggerD not available, falling back to stdout logging
+[56520]: [INFO] Spawing new device ITSDigitizer in process with pid 56520
+[56521]: [17:55:58][INFO] Configuration: 
+[56521]: catch-signals                                             = 1                                                                                                    <int>            [default] 
+[56522]: d? no
+[56519]: er_to_ITSDigitizer.0.portRangeMin  = 22000                                                                                            <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.rateLogging   = 60                                                                                               <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.rcvBufSize    = 1000                                                                                             <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.rcvKernelSize = 0                                                                                                <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.sndBufSize    = 1000                                                                                             <int>            [provided]
+[56520]: [17:55:58][INFO] Configuration: 
+[56520]: ITStriggered                                              = 0                                                                                                    <bool>           [default] 
+[56521]: channel-config                                            = name=from_ITSDigitizer_to_ITSDigitWriter,type=pull,method=connect,address=tcp://127.0.0.1:22001,rateLogging=60   <vector<string>> [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.address       = tcp://127.0.0.1:22001                                                                                <string>         [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.autoBind      = 1                                                                                                    <bool>           [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.linger        = 500                                                                                                  <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.method        = connect                                                                                              <string>         [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.portRangeMax  = 23000                                                                   infoLoggerD not available, falling back to stdout logging
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.sndKernelSize = 0                                                                                                <int>            [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.transport     = default                                                                                          <string>         [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.0.type          = push                                                                                             <string>         [provided]
+[56519]: chans.from_SimReader_to_ITSDigitizer.numSockets      = 1                                                                                                <int>            [provided]
+[56519]: color                                                = 0                                                                                                <bool>           [provided]
+[56519]: control                                              = static                                                                                           <string>         [provided]
+[56520]: catch-signals                                             = 1                                                                                                    <int>            [default] 
+[56520]: channel-config                                            = name=from_ITSDigitizer_to_ITSDigitWriter,type=push,method=bind,address=tcp://*:22001,rateLogging=60  name=from_ITSDigitizer_to_GRPUpdater,type=push,method=bind,address=tcp://*:22002,rateLogging=60  name=from_SimReader_to_ITSDigitizer,type=pull,method=connect,address=tcp://127.0.0.1:22000,rateLogging=60   <vector<string>> [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.address           = tcp://*:22002                                                                                        <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.autoBind          = 1                                                                                                    <bool>           [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.linger            = 500                                                                 infoLoggerD not available, falling back to stdout logging
+[56521]:                              <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.portRangeMin  = 22000                                                                                                <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rateLogging   = 60                                                                                                   <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rcvBufSize    = 1000                                                                                                 <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rcvKernelSize = 0                                                                                                    <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.sndBufSize    = 1000                                                                                                 <int>            [provided]
+[56519]: id                                                   = SimReader                                                                                        <string>         [provided]
+[56519]: incontext                                            =                                                                                                  <string>         [provided]
+[56519]: infologger-mode                                      =                                                                                                  <string>         [default] 
+[56519]: infologger-severity                                  =                                                                                                  <string>         [default] 
+[56519]: initialization-timeout                               = 120                                                                                              <int>            [default] 
+[56519]: io-threads                                           = 1                                                                                                <int>            [default] 
+[56520]:                                  <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.method            = bind                                                                                                 <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.portRangeMax      = 23000                                                                                                <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.portRangeMin      = 22000                                                                                                <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.rateLogging       = 60                                                                                                   <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.rcvBufSize        = 1000                                                                                                 <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.sndKernelSize = 0                                                                                                    <int>            [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.transport     = default                                                                                              <string>         [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.type          = pull                                                                                                 <string>         [provided]
+[56521]: chans.from_ITSDigitizer_to_ITSDigitWriter.numSockets      = 1                                                                                                    <int>            [provided]
+[56521]: color                                                     = 0                                                                                                    <bool>           [provided]
+[56519]: log-to-file                                          =                                                                                                  <string>         [default] 
+[56519]: monitoring-backend                                   = infologger://                                                                                    <string>         [default] 
+[56519]: ncollisions                                          = 0                                                                                                <int>            [provided]
+[56519]: network-interface                                    = default                                                                                          <string>         [default] 
+[56519]: outcontext                                           = collisioncontext.root                                                                            <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.rcvKernelSize     = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.sndBufSize        = 1000                                                                                                 <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.sndKernelSize     = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.transport         = default                                                                                              <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.0.type              = push                                                                                                 <string>         [provided]
+[56521]: control                                                   = static                                                                                               <string>         [provided]
+[56521]: id                                                        = ITSDigitWriter                                                                                       <string>         [provided]
+[56521]: infologger-mode                                           =                                                                                                      <string>         [default] 
+[56521]: infologger-severity                                       =                                                                                                      <string>         [default] 
+[56521]: initialization-timeout                                    = 120                                                                                                  <int>            [default] 
+[56519]: rate                                                 = 0                                                                                                <float>          [default] 
+[56519]: session                                              = default                                                                                          <string>         [default] 
+[56519]: severity                                             = debug                                                                                            <string>         [default] 
+[56519]: shm-monitor                                          = 1                                                                                                <bool>           [default] 
+[56519]: shm-segment-size                                     = 2000000000                                                                                       <std::size_t>    [default] 
+[56519]: simFile                                              = o2sim.root                                                                                       <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_GRPUpdater.numSockets          = 1                                                                                                    <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.address       = tcp://*:22001                                                                                        <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.autoBind      = 1                                                                                                    <bool>           [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.linger        = 500                                                                                                  <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.method        = bind                                                                                                 <string>         [provided]
+[56521]: io-threads                                                = 1                                                                                                    <int>            [default] 
+[56521]: its-digit-outfile                                         = itsdigits.root                                                                                       <string>         [provided]
+[56521]: log-to-file                                               =                                                                                                      <string>         [default] 
+[56521]: monitoring-backend                                        = infologger://                                                                                        <string>         [default] 
+[56521]: network-interface                                         = default                                                                                              <string>         [default] 
+[56521]: rate                                                      = 0                                                                                                    <float>          [default] 
+[56522]: [INFO] MFT is in grp? no; is skipped? no
+[56522]: [INFO] TOF is in grp? no; is skipped? no
+[56522]: [INFO] FIT is in grp? no; is skipped? no
+[56522]: [INFO] EMC is in grp? no; is skipped? no
+[56522]: [INFO] HMP is in grp? no; is skipped? no
+[56522]: [INFO] TRD is in grp? no; is skipped? no
+[56522]: [INFO] MCH is in grp? no; is skipped? no
+[56519]: simFileQED                                           =                                                                                                  <string>         [provided]
+[56519]: simFileS                                             =                                                                                                  <string>         [provided]
+[56519]: transport                                            = zeromq                                                                                           <string>         [default] 
+[56519]: verbosity                                            = medium                                                                                           <string>         [default] 
+[56519]: 
+[56519]: [17:55:58][INFO] 
+[56519]:       ______      _    _______  _________ 
+[56519]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.3.8
+[56519]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[56519]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[56519]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2018 GSI
+[56519]: 
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.portRangeMax  = 23000                                                                                                <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.portRangeMin  = 22000                                                                                                <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rateLogging   = 60                                                                                                   <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rcvBufSize    = 1000                                                                                                 <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.rcvKernelSize = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.sndBufSize    = 1000                                                                                                 <int>            [provided]
+[56521]: session                                                   = default                                                                                              <string>         [default] 
+[56521]: severity                                                  = debug                                                                                                <string>         [default] 
+[56521]: shm-monitor                                               = 1                                                                                                    <bool>           [default] 
+[56521]: shm-segment-size                                          = 2000000000                                                                                           <std::size_t>    [default] 
+[56521]: transport                                                 = zeromq                                                                                               <string>         [default] 
+[56522]: [WARN] Could not create GUI. Switching to batch mode. Do you have GLFW on your system?
+[56522]: [INFO] Spawing new device GRPUpdater in process with pid 56522
+[56519]: 2019-02-05 17:55:58	[1;49mStdOut backend initialized[0m
+[56519]: 
+[56519]: [17:55:58][STATE] Starting FairMQ state machine
+[56519]: [17:55:58][STATE] Entering IDLE state
+[56519]: [17:55:58][STATE] Entering INITIALIZING_DEVICE state
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.sndKernelSize = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.transport     = default                                                                                              <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.0.type          = push                                                                                                 <string>         [provided]
+[56520]: chans.from_ITSDigitizer_to_ITSDigitWriter.numSockets      = 1                                                                                                    <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.address            = tcp://127.0.0.1:22000                                                                                <string>         [provided]
+[56521]: treename                                                  = o2sim                                                                                                <string>         [provided]
+[56521]: verbosity                                                 = medium                                                                                               <string>         [default] 
+[56521]: 
+[56521]: [17:55:58][INFO] 
+[56521]:       ______      _    _______  _________ 
+[56521]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.3.8
+[56521]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[56521]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[56521]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2018 GSI
+[56521]: 
+[56521]: 2019-02-05 17:55:58	[1;49mStdOut backend initialized[0m
+[56521]: 
+[56521]: [17:55:58][STATE] Starting FairMQ state machine
+[56521]: [17:55:58][STATE] Entering IDLE state
+[56522]: [17:55:58][INFO] Configuration: 
+[56522]: catch-signals                                         = 1                                                                                                    <int>            [default] 
+[56519]: 
+[56519]: [17:55:58][INFO] INCONTEXTSTRING 
+[56519]: [17:55:58][INFO] setting up 1 chains
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.autoBind           = 1                                                                                                    <bool>           [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.linger             = 500                                                                                                  <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.method             = connect                                                                                              <string>         [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.portRangeMax       = 23000                                                                                                <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.portRangeMin       = 22000                                                                                                <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.rateLogging        = 60                                                                                                   <int>            [provided]
+[56522]: channel-config                                        = name=from_ITSDigitizer_to_GRPUpdater,type=pull,method=connect,address=tcp://127.0.0.1:22002,rateLogging=60   <vector<string>> [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.address       = tcp://127.0.0.1:22002                                                                                <string>         [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.autoBind      = 1                                                                                                    <bool>           [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.linger        = 500                                                                                                  <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.method        = connect                                                                                              <string>         [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.portRangeMax  = 23000                                                                                                <ininfoLoggerD not available, falling back to stdout logging
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.rcvBufSize         = 1000                                                                                                 <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.rcvKernelSize      = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.sndBufSize         = 1000                                                                                                 <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.sndKernelSize      = 0                                                                                                    <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.transport          = default                                                                                              <string>         [provided]
+[56522]: t>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.portRangeMin  = 22000                                                                                                <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.rateLogging   = 60                                                                                                   <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.rcvBufSize    = 1000                                                                                                 <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.rcvKernelSize = 0                                                                                                    <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.sndBufSize    = 1000                                                                                                 <int>            [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.0.type               = pull                                                                                                 <string>         [provided]
+[56520]: chans.from_SimReader_to_ITSDigitizer.numSockets           = 1                                                                                                    <int>            [provided]
+[56520]: color                                                     = 0                                                                                                    <bool>           [provided]
+[56520]: control                                                   = static                                                                                               <string>         [provided]
+[56520]: id                                                        = ITSDigitizer                                                                                         <string>         [provided]
+[56520]: infologger-mode                                           =                                                                                                      <string>         [default] 
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.sndKernelSize = 0                                                                                                    <int>            [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.transport     = default                                                                                              <string>         [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.0.type          = pull                                                                                                 <string>         [provided]
+[56522]: chans.from_ITSDigitizer_to_GRPUpdater.numSockets      = 1                                                                                                    <int>            [provided]
+[56522]: color                                                 = 0                                                                                                    <bool>           [provided]
+[56520]: infologger-severity                                       =                                                                                                      <string>         [default] 
+[56520]: initialization-timeout                                    = 120                                                                                                  <int>            [default] 
+[56520]: io-threads                                                = 1                                                                                                    <int>            [default] 
+[56520]: log-to-file                                               =                                                                                                      <string>         [default] 
+[56520]: monitoring-backend                                        = infologger://                                                                                        <string>         [default] 
+[56522]: control                                               = static                                                                                               <string>         [provided]
+[56522]: id                                                    = GRPUpdater                                                                                           <string>         [provided]
+[56522]: infologger-mode                                       =                                                                                                      <string>         [default] 
+[56522]: infologger-severity                                   =                                                                                                      <string>         [default] 
+[56522]: initialization-timeout                                = 120                                                                                                  <int>            [default] 
+[56522]: io-threads                                            = 1                                                                                                    <int>            [default] 
+[56520]: network-interface                                         = default                                                                                              <string>         [default] 
+[56520]: noise                                                     = 1e-07                                                                                                <float>          [provided]
+[56520]: rate                                                      = 0                                                                                                    <float>          [default] 
+[56520]: session                                                   = default                                                                                              <string>         [default] 
+[56520]: severity                                                  = debug                                                                                                <string>         [default] 
+[56522]: log-to-file                                           =                                                                                                      <string>         [default] 
+[56522]: monitoring-backend                                    = infologger://                                                                                        <string>         [default] 
+[56522]: network-interface                                     = default                                                                                              <string>         [default] 
+[56522]: rate                                                  = 0                                                                                                    <float>          [default] 
+[56522]: session                                               = default                                                                                              <string>         [default] 
+[56522]: severity                                              = debug                                                                                                <string>         [default] 
+[56520]: shm-monitor                                               = 1                                                                                                    <bool>           [default] 
+[56520]: shm-segment-size                                          = 2000000000                                                                                           <std::size_t>    [default] 
+[56520]: simFile                                                   = o2sim.root                                                                                           <string>         [provided]
+[56520]: simFileQED                                                =                                                                                                      <string>         [provided]
+[56520]: simFileS                                                  =                                                                                                      <string>         [provided]
+[56520]: transport                                                 = zeromq                                                                                               <string>         [default] 
+[56522]: shm-monitor                                           = 1                                                                                                    <bool>           [default] 
+[56522]: shm-segment-size                                      = 2000000000                                                                                           <std::size_t>    [default] 
+[56522]: transport                                             = zeromq                                                                                               <string>         [default] 
+[56522]: verbosity                                             = medium                                                                                               <string>         [default] 
+[56522]: 
+[56522]: [17:55:58][INFO] 
+[56522]:       ______      _    _______  _________ 
+[56522]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.3.8
+[56522]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[56522]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[56520]: verbosity                                                 = medium                                                                                               <string>         [default] 
+[56520]: 
+[56520]: [17:55:58][INFO] 
+[56520]:       ______      _    _______  _________ 
+[56520]:      / ____/___ _(_)_______   |/  /_  __ \    version 1.3.8
+[56520]:     / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+[56520]:    / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+[56520]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2018 GSI
+[56520]: 
+[56520]: 2019-02-05 17:55:58	[1;49mStdOut backend initialized[0m
+[56520]: 
+[56520]: [17:55:58][STATE] Starting FairMQ state machine
+[56520]: [17:55:58][STATE] Entering IDLE state
+[56522]:   /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2018 GSI
+[56522]: 
+[56522]: 2019-02-05 17:55:58	[1;49mStdOut backend initialized[0m
+[56522]: 
+[56522]: [17:55:58][STATE] Starting FairMQ state machine
+[56522]: [17:55:58][STATE] Entering IDLE state
+[56521]: [17:55:58][STATE] Entering INITIALIZING_DEVICE state
+[56521]: 2019-02-05 17:55:58	[1;49mBuffering enabled (100)[0m
+[56521]: [17:55:58][INFO] Opened itsdigits.root output file
+[56521]: [17:55:58][STATE] Entering DEVICE_READY state
+[56521]: [17:55:58][STATE] Entering INITIALIZING_TASK state
+[56521]: [17:55:58][STATE] Entering READY state
+[56521]: [17:55:58][STATE] Entering RUNNING state
+[56521]: [17:55:58][INFO] DEVICE: Running...
+[56520]: [17:55:58][STATE] Entering INITIALIZING_DEVICE state
+[56522]: [17:55:58][STATE] Entering INITIALIZING_DEVICE state
+[56522]: 2019-02-05 17:55:58	[1;49mBuffering enabled (100)[0m
+[56522]: [17:55:58][STATE] Entering DEVICE_READY state
+[56522]: [17:55:58][STATE] Entering INITIALIZING_TASK state
+[56522]: [17:55:58][STATE] Entering READY state
+[56522]: [17:55:58][STATE] Entering RUNNING state
+[56522]: [17:55:58][INFO] DEVICE: Running...
+[56520]: 2019-02-05 17:55:58	[1;49mBuffering enabled (100)[0m
+[56520]: [17:55:58][INFO] ITS simulated in CONTINUOUS RO mode
+[56520]: [17:55:58][INFO] Noise generation (per pixel) 1e-07
+[56520]: [17:55:58][INFO] Loading geometry FAIRGeom from O2geometry.root 
+[56519]: [17:55:58][INFO] Automatic deduction of number of collisions ... will just take number of background entries 10
+[56519]: [17:55:58][WARN] No bunch filling provided, impose default one 
+[56519]: [17:55:58][WARN] No IR or muBC is provided, setting default IR 
+[56519]: [17:55:58][INFO] Deducing mu=0.00771915 per BC from IR=50000 with 576 BCs 
+[56519]: Summary of RunContext --
+[56519]: Number of Collisions 10
+[56519]: Collision 0 TIME 89972.7 (0 , 0)
+[56519]: Collision 1 TIME 93914.9 (0 , 1)
+[56519]: Collision 2 TIME 103546 (0 , 2)
+[56519]: Collision 3 TIME 113277 (0 , 3)
+[56519]: Collision 4 TIME 119065 (0 , 4)
+[56519]: Collision 5 TIME 122907 (0 , 5)
+[56519]: Collision 6 TIME 127499 (0 , 6)
+[56519]: Collision 7 TIME 133686 (0 , 7)
+[56519]: Collision 8 TIME 141720 (0 , 8)
+[56519]: Collision 9 TIME 142519 (0 , 9)
+[56519]: [17:55:58][INFO] Initializing Spec ... have 10 times 
+[56519]: [17:55:58][INFO] Serializing Context for later reuse
+[56519]: 2019-02-05 17:55:58	[1;49mBuffering enabled (100)[0m
+[56519]: [17:55:58][STATE] Entering DEVICE_READY state
+[56519]: [17:55:58][STATE] Entering INITIALIZING_TASK state
+[56519]: [17:55:58][STATE] Entering READY state
+[56519]: [17:55:58][STATE] Entering RUNNING state
+[56519]: [17:55:58][INFO] DEVICE: Running...
+[56519]: [17:55:58][INFO] SENDING SOMETHING TO OTHERS
+[56520]: Info in <TGeoManager::CloseGeometry>: Geometry loaded from file...
+[56520]: Info in <TGeoManager::SetTopVolume>: Top volume is cave. Master volume is cave
+[56520]: Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+[56520]: Info in <TGeoManager::CloseGeometry>: Voxelization retrieved from file
+[56520]: Info in <TGeoManager::CountLevels>: max level = 8, max placements = 108
+[56520]: Info in <TGeoManager::CloseGeometry>: 179073 nodes/ 298 volume UID's in FAIR geometry
+[56520]: Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+[56520]: [17:55:59][INFO] Loading ITS L2G matrices from TGeo 
+[56520]: [17:55:59][INFO] Set Alpide charge threshold to 150, single hit will be accounted from 15 electrons 
+[56520]: Alpide response object of 40500 matrices to map chagre in xyz to 5x5 pixels
+[56520]: X(col) range: +0.000000e+00 : +1.462000e-03 | step: 5.000000e-05 | Nbins: 30
+[56520]: Y(row) range: +0.000000e+00 : +1.344000e-03 | step: 5.000000e-05 | Nbins: 27
+[56520]: Z(dpt) range: -2.000000e-03 : +2.500000e-03 | step: 8.999999e-05 | Nbins: 50
+[56520]: Alpide digitization params:
+[56520]: Continuous readout             : ON
+[56520]: Readout Frame Length(ns)       : 6000.000000
+[56520]: Strobe delay (ns)              : 6000.000000
+[56520]: Strobe length (ns)             : 100.000000
+[56520]: Threshold (N electrons)        : 150
+[56520]: Min N electrons to accoint     : 15
+[56520]: Number of charge sharing steps : 7
+[56520]: ELoss to N electrons factor    : 2.777778e+08
+[56520]: Noise level per pixel          : 1.000000e-07
+[56520]: Charge time-response:
+[56520]: o2::ITSMFT::AlpideSignalTrapezoid | Duration: 7500.0 MaxRiseTime: 1100.0 (RiseTime=0 at q=450.0) (ns)
+[56520]: [17:55:59][STATE] Entering DEVICE_READY state
+[56520]: [17:55:59][STATE] Entering INITIALIZING_TASK state
+[56520]: [17:55:59][STATE] Entering READY state
+[56520]: [17:55:59][STATE] Entering RUNNING state
+[56520]: [17:55:59][INFO] DEVICE: Running...
+[56520]: [17:55:59][INFO]  CALLING ITS DIGITIZATION  
+[56520]: [17:55:59][INFO] For collision 0 eventID 0 found 77 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 0 from source 0 at time 89972.7 (TOff.= 0 ROFrame= 14) cont.mode: 1 Min/Max ROFrames 0/13 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 0:13 
+[56520]: ROF: 0 | 1283 entries starting from 0/0
+[56520]: BCid: 0 Orbit: 0 T(ns): 0
+[56520]: ROF: 1 | 1267 entries starting from 0/1283
+[56520]: BCid: 240 Orbit: 0 T(ns): 6000
+[56520]: ROF: 2 | 1323 entries starting from 0/2550
+[56520]: BCid: 481 Orbit: 0 T(ns): 12000
+[56520]: ROF: 3 | 1229 entries starting from 0/3873
+[56520]: BCid: 721 Orbit: 0 T(ns): 18000
+[56520]: ROF: 4 | 1245 entries starting from 0/5102
+[56520]: BCid: 962 Orbit: 0 T(ns): 24000
+[56520]: ROF: 5 | 1248 entries starting from 0/6347
+[56520]: BCid: 1202 Orbit: 0 T(ns): 30000
+[56520]: ROF: 6 | 1259 entries starting from 0/7595
+[56520]: BCid: 1443 Orbit: 0 T(ns): 36000
+[56520]: ROF: 7 | 1258 entries starting from 0/8854
+[56520]: BCid: 1683 Orbit: 0 T(ns): 42000
+[56520]: ROF: 8 | 1247 entries starting from 0/10112
+[56520]: BCid: 1924 Orbit: 0 T(ns): 48000
+[56520]: ROF: 9 | 1249 entries starting from 0/11359
+[56520]: BCid: 2164 Orbit: 0 T(ns): 54000
+[56520]: ROF: 10 | 1258 entries starting from 0/12608
+[56520]: BCid: 2405 Orbit: 0 T(ns): 60000
+[56520]: ROF: 11 | 1259 entries starting from 0/13866
+[56520]: BCid: 2645 Orbit: 0 T(ns): 66000
+[56520]: ROF: 12 | 1236 entries starting from 0/15125
+[56520]: BCid: 2886 Orbit: 0 T(ns): 72000
+[56520]: ROF: 13 | 1246 entries starting from 0/16361
+[56520]: BCid: 3126 Orbit: 0 T(ns): 78000
+[56520]: [17:55:59][INFO] Added 17607 digits  
+[56520]: [17:55:59][INFO] For collision 1 eventID 1 found 78 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 1 from source 0 at time 93914.9 (TOff.= 0 ROFrame= 15) cont.mode: 1 Min/Max ROFrames 14/16 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 14:14 
+[56520]: ROF: 14 | 1262 entries starting from 0/17607
+[56520]: BCid: 3367 Orbit: 0 T(ns): 84000
+[56520]: MCEventID: 0 ROFs: 14-15 Entry in ROFRecords: 14
+[56520]: [17:55:59][INFO] Added 1262 digits  
+[56520]: [17:55:59][INFO] For collision 2 eventID 2 found 80 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 2 from source 0 at time 103546 (TOff.= 0 ROFrame= 17) cont.mode: 1 Min/Max ROFrames 15/16 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 15:16 
+[56520]: ROF: 15 | 1682 entries starting from 0/18869
+[56520]: BCid: 43 Orbit: 1 T(ns): 90000
+[56520]: MCEventID: 1 ROFs: 15-15 Entry in ROFRecords: 15
+[56520]: ROF: 16 | 1245 entries starting from 0/20551
+[56520]: BCid: 284 Orbit: 1 T(ns): 96000
+[56520]: [17:55:59][INFO] Added 2927 digits  
+[56520]: [17:55:59][INFO] For collision 3 eventID 3 found 80 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 3 from source 0 at time 113277 (TOff.= 0 ROFrame= 18) cont.mode: 1 Min/Max ROFrames 17/18 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 17:17 
+[56520]: ROF: 17 | 1425 entries starting from 0/21796
+[56520]: BCid: 524 Orbit: 1 T(ns): 102000
+[56520]: MCEventID: 2 ROFs: 17-17 Entry in ROFRecords: 17
+[56520]: [17:55:59][INFO] Added 1425 digits  
+[56520]: [17:55:59][INFO] For collision 4 eventID 4 found 81 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 4 from source 0 at time 119065 (TOff.= 0 ROFrame= 19) cont.mode: 1 Min/Max ROFrames 18/20 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 18:18 
+[56520]: ROF: 18 | 1487 entries starting from 0/23221
+[56520]: BCid: 765 Orbit: 1 T(ns): 108000
+[56520]: MCEventID: 3 ROFs: 18-19 Entry in ROFRecords: 18
+[56520]: [17:55:59][INFO] Added 1487 digits  
+[56520]: [17:55:59][INFO] For collision 5 eventID 5 found 76 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 5 from source 0 at time 122907 (TOff.= 0 ROFrame= 20) cont.mode: 1 Min/Max ROFrames 19/21 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 19:19 
+[56520]: ROF: 19 | 1636 entries starting from 0/24708
+[56520]: BCid: 1005 Orbit: 1 T(ns): 114000
+[56520]: MCEventID: 4 ROFs: 19-20 Entry in ROFRecords: 19
+[56520]: [17:55:59][INFO] Added 1636 digits  
+[56520]: [17:55:59][INFO] For collision 6 eventID 6 found 83 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 6 from source 0 at time 127499 (TOff.= 0 ROFrame= 21) cont.mode: 1 Min/Max ROFrames 20/21 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 20:20 
+[56520]: ROF: 20 | 1640 entries starting from 0/26344
+[56520]: BCid: 1245 Orbit: 1 T(ns): 120000
+[56520]: MCEventID: 5 ROFs: 20-20 Entry in ROFRecords: 20
+[56520]: [17:55:59][INFO] Added 1640 digits  
+[56520]: [17:55:59][INFO] For collision 7 eventID 7 found 87 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 7 from source 0 at time 133686 (TOff.= 0 ROFrame= 22) cont.mode: 1 Min/Max ROFrames 21/22 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 21:21 
+[56520]: ROF: 21 | 1496 entries starting from 0/27984
+[56520]: BCid: 1486 Orbit: 1 T(ns): 126000
+[56520]: MCEventID: 6 ROFs: 21-21 Entry in ROFRecords: 21
+[56520]: [17:55:59][INFO] Added 1496 digits  
+[56520]: [17:55:59][INFO] For collision 8 eventID 8 found 74 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 8 from source 0 at time 141720 (TOff.= 0 ROFrame= 23) cont.mode: 1 Min/Max ROFrames 22/23 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 22:22 
+[56520]: ROF: 22 | 1497 entries starting from 0/29480
+[56520]: BCid: 1726 Orbit: 1 T(ns): 132000
+[56520]: MCEventID: 7 ROFs: 22-22 Entry in ROFRecords: 22
+[56520]: [17:55:59][INFO] Added 1497 digits  
+[56520]: [17:55:59][INFO] For collision 9 eventID 9 found 81 hits  
+[56520]: [17:55:59][INFO] Digitizing ITS hits of entry 9 from source 0 at time 142519 (TOff.= 0 ROFrame= 23) cont.mode: 1 Min/Max ROFrames 23/24 
+[56520]: [17:55:59][INFO] Filling ITS digits output for RO frames 23:25 
+[56520]: ROF: 23 | 1573 entries starting from 0/30977
+[56520]: BCid: 1967 Orbit: 1 T(ns): 138000
+[56520]: MCEventID: 8 ROFs: 23-23 Entry in ROFRecords: 23
+[56520]: MCEventID: 9 ROFs: 23-24 Entry in ROFRecords: 23
+[56520]: ROF: 24 | 1400 entries starting from 0/32550
+[56520]: BCid: 2207 Orbit: 1 T(ns): 144000
+[56520]: ROF: 25 | 1239 entries starting from 0/33950
+[56520]: BCid: 2448 Orbit: 1 T(ns): 150000
+[56520]: [17:55:59][INFO] Added 4212 digits  
+[56520]: [17:55:59][INFO] ITS: Sending ROMode= 3 to GRPUpdater
+[56520]: [17:55:59][INFO] Digitization took 0.3s 
+[56522]: [17:55:59][INFO] Updated GRP in o2sim_grp.root for detectors RO mode 
+[56522]: Run: 1549385754
+[56522]: Fill:      0
+[56522]: Period: 
+[56522]: LHC State: 
+[56522]: Start: Tue Feb  5 17:55:54 2019
+[56522]: End  : Tue Feb  5 17:55:54 2019
+[56522]: Beam0: Z:A =   0:  0, Energy = 0.000
+[56522]: Beam1: Z:A =   0:  0, Energy = 0.000
+[56522]: sqrt[s]    = 0.000
+[56522]: crossing angle (radian) = 0.000000e+00
+[56522]: magnet currents (A) L3 = -30000.000, Dipole = -6000
+[56522]: Detectors: Cont.RO Triggers
+[56522]:       ITS:    +       -    
+[56521]: [17:55:59][INFO] RECEIVED DIGITS SIZE 35189
+[INFO] Quitting
+[INFO] QUIT_REQUESTED
+
+[56521]: [17:56:00][INFO] Received device shutdown request (signal 15).
+[56521]: [17:56:00][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[56520]: [METRIC] dpl/in_handle_data,0 1 1549385760091[17:56:00][INFO] Received device shutdown request (signal 15).
+[56520]:  hostname=sbgmc61.in2p3.fr,name=digitizer-workflow
+[56520]: [17:56:00][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[56522]: [17:56:00][INFO] Received device shutdown request (signal 15).
+[56522]: [METRIC] dpl/in_handle_data,0 [17:56:00][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[56522]: 0 1549385760100 hostname=sbgmc61.in2p3.fr,name=digitizer-workflow
+[56521]: [17:56:00][STATE] Entering READY state
+[56521]: [17:56:00][STATE] Entering RESETTING_TASK state
+[56521]: [17:56:00][STATE] Entering DEVICE_READY state
+[56521]: [17:56:00][STATE] Entering RESETTING_DEVICE state
+[56521]: [17:56:00][STATE] Entering IDLE state
+[56521]: [17:56:00][STATE] Entering EXITING state
+[56521]: [17:56:00][STATE] Exiting FairMQ state machine
+[56521]: [17:56:00][INFO] Process 56521 is exiting.
+[56522]: [17:56:00][STATE] Entering READY state
+[56522]: [17:56:00][STATE] Entering RESETTING_TASK state
+[56522]: [17:56:00][STATE] Entering DEVICE_READY state
+[56522]: [17:56:00][STATE] Entering RESETTING_DEVICE state
+[56522]: [17:56:00][STATE] Entering IDLE state
+[56522]: [17:56:00][STATE] Entering EXITING state
+[56522]: [17:56:00][STATE] Exiting FairMQ state machine
+[56522]: [17:56:00][INFO] Process 56522 is exiting.
+[56520]: [17:56:00][STATE] Entering READY state
+[56520]: [17:56:00][STATE] Entering RESETTING_TASK state
+[56520]: [17:56:00][STATE] Entering DEVICE_READY state
+[56520]: [17:56:00][STATE] Entering RESETTING_DEVICE state
+[56520]: [17:56:00][STATE] Entering IDLE state
+[56520]: [17:56:00][STATE] Entering EXITING state
+[56520]: [17:56:00][STATE] Exiting FairMQ state machine
+[56520]: [17:56:00][INFO] Process 56520 is exiting.
+[56519]: [METRIC] dpl/in_handle_data,[17:56:00][INFO] Received device shutdown request (signal 15).
+[56519]: 0 1 1549385760179 hostname=sbgmc61.in2p3.fr,name=digitizer-workflow
+[56519]: [17:56:00][INFO] Waiting for graceful device shutdown. Hit Ctrl-C again to abort immediately.
+[56519]: [17:56:00][STATE] Entering READY state
+[56519]: [17:56:00][STATE] Entering RESETTING_TASK state
+[56519]: [17:56:00][STATE] Entering DEVICE_READY state
+[56519]: [17:56:00][STATE] Entering RESETTING_DEVICE state
+[56519]: [17:56:00][STATE] Entering IDLE state
+[56519]: [17:56:00][STATE] Entering EXITING state
+[56519]: [17:56:00][STATE] Exiting FairMQ state machine
+[56519]: [17:56:00][INFO] Process 56519 is exiting.
+[INFO] Process 56513 is exiting.

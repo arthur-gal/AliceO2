@@ -1,0 +1,266 @@
+[INFO] tcp://localhost:25042
+[INFO] tcp://localhost:25043
+[INFO] Waiting for configuration answer 
+[INFO] Configuration answer received, containing 1032 bytes 
+[INFO] COMMUNICATED ENGINE TGeant3
+[INFO] Setting up the simulation ...
+[INFO] RNG INITIAL SEED 4111301045
+[WARN] FairRun::SetOutputFile() deprecated. Use FairRootFileSink.
+[INFO] Media file used: /Users/agal/alice/sw/osx_x86-64/O2/1.0.0-1/share/Detectors/Geometry/media.geo
+[INFO] MagneticField::CreateField: Maximim possible beam energy for requested beam is assumed
+[INFO] MagneticField::Print: Maps:
+[INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of $(O2_ROOT)/share/Common/maps/mfchebKGI_sym.root
+[INFO] Activating PIPE module
+[INFO] Activating ITS module
+[INFO] L# 0 Phi:16.42 R:2.34 Nst:12 Nunit:9 W:1.5 Tilt:-17.503 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 1 Phi:12.18 R:3.15 Nst:16 Nunit:9 W:1.5 Tilt:-17.9445 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 2 Phi:9.55 R:3.93 Nst:20 Nunit:9 W:1.5 Tilt:-16.9423 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 3 Phi:0 R:19.6 Nst:24 Nunit:4 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 4 Phi:0 R:24.55 Nst:30 Nunit:4 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 5 Phi:0 R:34.39 Nst:42 Nunit:7 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[INFO] L# 6 Phi:0 R:39.34 Nst:48 Nunit:7 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+O2RUNSIM SPECIFIC INIT CALLED
+[INFO] FairRootFileSink initialized.
+[INFO]  - cbmroot
+[INFO]     - o2sim_56488.root
+Info in <TGeoManager::TGeoManager>: Geometry FAIRGeom, FAIR geometry created
+[INFO] FairGeoMedia: Read media 
+[INFO] MagFieldContFact::createContainer: Creating mag.field container MagFieldParam
+[INFO] Setting up G3 sim from library code 
+-I- G3Config: Geant3 with TGeo has been created.
+SetCuts Macro: Setting Processes..
+[INFO] Set default settings for processes and cuts.
+[INFO] Special process settings are enabled.
+[INFO] Special cut settings are enabled.
+[INFO] Setting interaction diamond: position = {0,0,0} cm
+[INFO] Setting interaction diamond: width = {0,0,0} cm
+[INFO] Setting up CAVE without ZDC
+Info in <TGeoManager::SetTopVolume>: Top volume is cave. Master volume is cave
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CheckGeometry>: ...Nothing to fix
+Info in <TGeoManager::CloseGeometry>: Counting nodes...
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CloseGeometry>: Building cache...
+Info in <TGeoManager::CountLevels>: max level = 8, max placements = 108
+Info in <TGeoManager::CloseGeometry>: 179073 nodes/ 298 volume UID's in FAIR geometry
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+[INFO] TGeometry will not be imported to VMC
+
+Warning in <TGeoManager::CloseGeometry>: geometry already closed
+[INFO] FairMCApplication::InitGeometry: 0
+[INFO] Simulation RunID: 1549385754
+[INFO] CREATING BRANCH ITSHit
+[INFO] Creating branch for ITSHit with address 0x7fe9181b9cf0
+[INFO] CREATING BRANCH IndexedTrackRefs
+[INFO] Creating branch for IndexedTrackRefs with address 0x7fe919e734a0
+[INFO] CREATING BRANCH MCTrack
+[INFO] Creating branch for MCTrack with address 0x7fe919e73420
+[INFO] CREATING BRANCH TrackRefs
+[INFO] Creating branch for TrackRefs with address 0x7fe919e73498
+[INFO] Monte Carlo Engine Initialisation with: TGeant3TGeo
+Warning in <TGeoManager::CloseGeometry>: geometry already closed
+[INFO] Add ITS alignable volumes
+Info in <TGeoManager::Export>: Exporting FAIRGeom FAIR geometry as root file. Optimizations streamed.
+[INFO] ***  FairBaseParSet written to ROOT file   version: 1
+[INFO] ***  FairGeoParSet written to ROOT file   version: 1
+[INFO] ***  MagFieldParam written to ROOT file   version: 1
+--------------------------------------------------------------------------------
+--------------  actual containers in runtime database  -------------------------
+FairBaseParSet                                 class for parameter io
+FairGeoParSet                                  class for Geo parameter
+MagFieldParam                                  Mag. Field Parameters
+--------------  runs, versions  ------------------------------------------------
+run id
+  container                                        1st-inp    2nd-inp    output
+run: 1549385754
+  FairBaseParSet                                1549385754         -1          1
+  FairGeoParSet                                 1549385754         -1          1
+  MagFieldParam                                         -1         -1          1
+--------------  input/output  --------------------------------------------------
+first input: none
+second input: none
+output:
+OBJ: FairParRootFile	o2sim_56488_par.root	 : 0 at: 0x7fe91d7ddc10
+Root file I/O o2sim_56488_par.root is open
+detector I/Os:  FairGenericParIo
+Run: 1549385754
+Fill:      0
+Period: 
+LHC State: 
+Start: Tue Feb  5 17:55:54 2019
+End  : Tue Feb  5 17:55:54 2019
+Beam0: Z:A =   0:  0, Energy = 0.000
+Beam1: Z:A =   0:  0, Energy = 0.000
+sqrt[s]    = 0.000
+crossing angle (radian) = 0.000000e+00
+magnet currents (A) L3 = 0.000, Dipole = 0
+Detectors: Cont.RO Triggers
+      ITS:    -       -    
+VMC: 0x7fe91ad11e00
+[INFO] Init: Real time 0.880625 s, CPU time 0.86s
+[INFO] Init: Memory used 212.645 MB
+[INFO] MEM-STAMP END OF SIM INIT212.645 212.645 MB
+
+[INFO] Running with 4 sim workers 
+[WARN] CPU AFFINITY NOT IMPLEMENTED ON APPLE
+[WARN] CPU AFFINITY NOT IMPLEMENTED ON APPLE
+[WARN] CPU AFFINITY NOT IMPLEMENTED ON APPLE
+[STATE] Starting FairMQ state machine
+[STATE] Entering IDLE state
+[WARN] CPU AFFINITY NOT IMPLEMENTED ON APPLE
+[STATE] Starting FairMQ state machine
+[STATE] Entering IDLE state
+[INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[STATE] Starting FairMQ state machine
+[INFO] FOUND ID TO ATTACH -1
+[INFO] ATTACH NOT SUCCESSFUL
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[STATE] Entering IDLE state
+[STATE] Starting FairMQ state machine
+[STATE] Entering IDLE state
+[INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[INFO] FOUND ID TO ATTACH -1
+[INFO] ATTACH NOT SUCCESSFUL
+[INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[INFO] Requesting work 
+[INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[INFO] FOUND ID TO ATTACH -1
+[INFO] Waiting for answer 
+[INFO] ATTACH NOT SUCCESSFUL
+[INFO] FOUND ID TO ATTACH -1
+[INFO] Requesting work 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] ATTACH NOT SUCCESSFUL
+[INFO] Waiting for answer 
+[INFO] Requesting work 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Processing 10 
+[INFO] Processing 10 
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Generate primaries 10
+
+[INFO] Generate primaries 10
+
+[INFO] Stack: 10 out of 14 stored 
+
+[INFO] Found nonconforming detector CAVE 
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0246661	
+[INFO] MEM-STAMP 213.371 213.371 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Stack: 10 out of 11 stored 
+
+[INFO] Found nonconforming detector CAVE 
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0295241	
+[INFO] Stack: 10 out of 15 stored 
+
+[INFO] MEM-STAMP 10.543 10.543 MB
+
+[INFO] Found nonconforming detector CAVE 
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] sending message with 6 parts
+[INFO] Answer received, containing 2064 bytes  
+[INFO] TIME-STAMP 0.033746	
+[INFO] Processing 10 
+[INFO] MEM-STAMP 11.1406 11.1406 MB
+
+[INFO] Requesting work 
+[INFO] Generate primaries 10
+
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Stack: 10 out of 18 stored 
+
+[INFO] Found nonconforming detector CAVE 
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0394049	
+[INFO] MEM-STAMP 11.5234 11.5234 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Stack: 11 out of 26 stored 
+
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0486131	
+[INFO] MEM-STAMP 213.551 213.551 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Stack: 10 out of 13 stored 
+
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.047627	
+[INFO] MEM-STAMP 10.9883 10.9883 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Answer received, containing 2064 bytes  
+[INFO] Processing 10 
+[INFO] Generate primaries 10
+
+[INFO] Stack: 10 out of 21 stored 
+
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0584531	
+[INFO] MEM-STAMP 11.832 11.832 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Stack: 13 out of 20 stored 
+
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.062269	
+[INFO] MEM-STAMP 12.4062 12.4141 MB
+
+[INFO] Requesting work 
+[INFO] Stack: 10 out of 16 stored 
+
+[INFO] sending message with 6 parts
+[INFO] Waiting for answer 
+[INFO] TIME-STAMP 0.0655801	
+[INFO] MEM-STAMP 213.551 213.551 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] Stack: 10 out of 16 stored 
+
+[INFO] sending message with 6 parts
+[INFO] TIME-STAMP 0.0659971	
+[INFO] MEM-STAMP 11.4961 11.4961 MB
+
+[INFO] Requesting work 
+[INFO] Waiting for answer 
+[INFO] simulation is done
+[INFO] simulation is done
+[INFO] simulation is done

@@ -1,0 +1,354 @@
+O2PrimaryServerDeviceRunner
+--control
+static
+--id
+primary-server
+--mq-config
+o2simtopology_56484.json
+-n
+10
+-e
+TGeant3
+-g
+boxgen
+-m
+PIPE
+ITS
+$$$$[[01;36m17:55:52[0m][[01;34mDEBUG[0m] mq-config: Using default JSON parser
+[[01;36m17:55:52[0m][[01;32mINFO[0m] Configuration: 
+bMax                              = 0                        <float>          [default] 
+catch-signals                     = 1                        <int>            [default] 
+chans.primary-get.0.address       = tcp://*:25042            <string>         [provided]
+chans.primary-get.0.autoBind      = 1                        <bool>           [provided]
+chans.primary-get.0.linger        = 500                      <int>            [provided]
+chans.primary-get.0.method        = bind                     <string>         [provided]
+chans.primary-get.0.portRangeMax  = 23000                    <int>            [provided]
+chans.primary-get.0.portRangeMin  = 22000                    <int>            [provided]
+chans.primary-get.0.rateLogging   = 0                        <int>            [provided]
+chans.primary-get.0.rcvBufSize    = 1000                     <int>            [provided]
+chans.primary-get.0.rcvKernelSize = 0                        <int>            [provided]
+chans.primary-get.0.sndBufSize    = 1000                     <int>            [provided]
+chans.primary-get.0.sndKernelSize = 0                        <int>            [provided]
+chans.primary-get.0.transport     = default                  <string>         [provided]
+chans.primary-get.0.type          = rep                      <string>         [provided]
+chans.primary-get.numSockets      = 1                        <int>            [provided]
+chunkSize                         = 10000                    <std::uint32_t>  [default] 
+chunkSizeI                        = -1                       <int>            [default] 
+color                             = 1                        <bool>           [default] 
+configKeyValues                   =                          <string>         [default] 
+control                           = static                   <string>         [provided]
+extGenFile                        = extgen.C                 <string>         [default] 
+extGenFunc                        =                          <string>         [default] 
+extKinFile                        = Kinematics.root          <string>         [default] 
+generator                         = boxgen                   <string>         [provided]
+id                                = primary-server           <string>         [provided]
+initialization-timeout            = 120                      <int>            [default] 
+io-threads                        = 1                        <int>            [default] 
+isMT                              = 0                        <bool>           [default] 
+log-to-file                       =                          <string>         [default] 
+logseverity                       = INFO                     <string>         [default] 
+logverbosity                      = low                      <string>         [default] 
+mcEngine                          = TGeant3                  <string>         [provided]
+modules                           = PIPE  ITS                <vector<string>> [provided]
+mq-config                         = o2simtopology_56484.json <string>         [provided]
+nEvents                           = 10                       <std::uint32_t>  [provided]
+network-interface                 = default                  <string>         [default] 
+nworkers                          = 4                        <int>            [default] 
+outPrefix                         = o2sim                    <string>         [default] 
+rate                              = 0                        <float>          [default] 
+seed                              = -1                       <int>            [default] 
+session                           = default                  <string>         [default] 
+severity                          = debug                    <string>         [default] 
+shm-monitor                       = 1                        <bool>           [default] 
+shm-segment-size                  = 2000000000               <std::size_t>    [default] 
+skipModules                       =                          <vector<string>> [default] 
+startEvent                        = 0                        <std::uint32_t>  [default] 
+transport                         = zeromq                   <string>         [default] 
+verbosity                         = medium                   <string>         [default] 
+
+[[01;36m17:55:52[0m][[01;32mINFO[0m] 
+      ______      _    _______  _________ 
+     / ____/___ _(_)_______   |/  /_  __ \    version 1.3.8
+    / /_  / __ `/ / ___/__  /|_/ /_  / / /    build RELWITHDEBINFO
+   / __/ / /_/ / / /    _  /  / / / /_/ /     https://github.com/FairRootGroup/FairMQ
+  /_/    \__,_/_/_/     /_/  /_/  \___\_\     LGPL-3.0  © 2012-2018 GSI
+
+[[01;36m17:55:52[0m][[01;35mSTATE[0m] Starting FairMQ state machine
+[[01;36m17:55:52[0m][[01;35mSTATE[0m] Entering IDLE state
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] PID: 56487
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Loaded plugin: 'control', version '1.3.8', maintainer 'FairRootGroup <fairroot@gsi.de>', homepage 'https://github.com/FairRootGroup/FairRoot'
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Running builtin controller: static
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] catch-signals: 1
+[[01;36m17:55:52[0m][[01;35mSTATE[0m] Entering INITIALIZING_DEVICE state
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Inserting new device channel from config: primary-get
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Requesting 'zeromq' as default transport for the device
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Transport: Using ZeroMQ library, version: 4.3.1
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Adding 'zeromq' transport to the device.
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] primary-get[0]: using default transport
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Validating channel 'primary-get[0]'... VALID
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Created socket primary-server.primary-get[0].rep
+[[01;36m17:55:52[0m][[01;34mDEBUG[0m] Attached channel primary-get[0] to tcp://*:25042 (bind) (rep)
+[[01;36m17:55:52[0m][[01;35mSTATE[0m] Entering DEVICE_READY state
+[[01;36m17:55:52[0m][[01;35mSTATE[0m] Entering INITIALIZING_TASK state
+[[01;36m17:55:52[0m][[01;32mINFO[0m] Init Server device 
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// bMax f
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// catch-signals i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.address NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.autoBind b
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.linger i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.method NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.portRangeMax i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.portRangeMin i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.rateLogging i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.rcvBufSize i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.rcvKernelSize i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.sndBufSize i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.sndKernelSize i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.transport NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.0.type NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chans.primary-get.numSockets i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chunkSize j
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// chunkSizeI i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// color b
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// configKeyValues NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// control NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// extGenFile NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// extGenFunc NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// extKinFile NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// generator NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// id NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// initialization-timeout i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// io-threads i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// isMT b
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// log-to-file NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// logseverity NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// logverbosity NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// mcEngine NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// modules NSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// mq-config NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// nEvents j
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// network-interface NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// nworkers i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// outPrefix NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// rate f
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// seed i
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// session NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// severity NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// shm-monitor b
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// shm-segment-size m
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// skipModules NSt3__16vectorINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEENS4_IS6_EEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// startEvent j
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// transport NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ///// verbosity NSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEE
+[[01;36m17:55:52[0m][[01;32mINFO[0m] ENGINE SET TO TGeant3
+[[01;36m17:55:52[0m][[01;32mINFO[0m] CHUNK SIZE SET TO 10000
+[[01;36m17:55:52[0m][[01;32mINFO[0m] RNG INITIAL SEED -1163508404
+[[01;36m17:55:53[0m][[01;32mINFO[0m] ASSIGNED PIPE HANDLE 6
+[[01;36m17:55:53[0m][[01;35mSTATE[0m] Entering READY state
+[[01;36m17:55:53[0m][[01;35mSTATE[0m] Entering RUNNING state
+[[01;36m17:55:53[0m][[01;32mINFO[0m] DEVICE: Running...
+[[01;36m17:55:53[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 13
+[[01;36m17:55:53[0m][[01;32mINFO[0m] received config request
+[[01;36m17:55:53[0m][[01;32mINFO[0m] Init box generator
+[[01;36m17:55:53[0m][[01;32mINFO[0m] config reply send 
+[[01;36m17:55:53[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 13
+[[01;36m17:55:53[0m][[01;32mINFO[0m] received config request
+[[01;36m17:55:53[0m][[01;32mINFO[0m] config reply send 
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(-0.38, -0.20, -0.30) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.14, 0.49, 0.38) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.47, -0.48, -1.58) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.20, -1.39, -2.10) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.74, -0.66, 0.44) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.14, -1.09, -0.41) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.39, -0.78, -0.36) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.11, 2.01, 0.46) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.53, 1.78, 3.00) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.48, 1.96, 2.33) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 1) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 1 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(0.27, -0.13, 0.04) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.00, 2.22, -1.64) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.16, 0.54, 0.56) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.34, -1.12, -2.26) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.81, 1.33, 0.22) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.64, 1.91, -3.05) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.50, -4.82, 0.44) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.14, -0.79, -0.40) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.02, 0.22, -0.20) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.40, 1.63, 0.61) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 2) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 2 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(0.11, -0.06, -0.05) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.30, -1.04, -0.53) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.92, 0.05, 0.41) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.23, 3.58, -2.21) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.71, 0.75, 0.96) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.12, 1.18, 1.44) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(4.39, 0.70, -0.13) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.02, -0.49, 0.16) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.24, -0.27, 1.91) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.26, -0.00, -0.11) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 3) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 3 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(1.05, 3.83, 2.15) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.60, -0.20, 0.90) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.35, 3.00, -0.61) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.05, -0.19, -0.04) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.06, -1.84, -2.43) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.18, -2.17, -2.63) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.76, -1.49, 2.12) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.52, 2.66, -0.63) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.06, 0.45, 0.07) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(4.39, 0.14, -2.18) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 4) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 4 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(1.82, -3.72, -2.00) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.34, 3.50, -3.25) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.27, 0.85, -0.38) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.00, 2.71, -1.50) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.18, 0.08, -0.15) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.24, 3.75, -2.81) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.62, 1.47, 0.61) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.27, 0.76, 1.17) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.31, 2.78, -3.36) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.11, -2.49, -2.09) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 5) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 5 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(-1.45, -4.16, 0.83) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.79, -1.55, 0.01) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.86, 0.19, -0.17) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.04, -1.24, -1.01) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.55, 1.22, 1.32) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(3.06, -0.24, 2.23) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.33, -0.77, -0.80) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.70, 1.92, 0.76) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.72, 0.67, 0.09) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.72, -3.16, 0.30) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 6) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 6 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(0.09, 0.58, -0.38) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.17, -0.10, 0.02) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.13, 3.49, -2.84) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.04, 3.93, 2.85) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.03, 0.12, 0.10) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.88, 2.08, 2.30) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.55, 3.57, 1.50) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.24, 2.20, 0.64) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.85, 1.80, -1.09) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.91, -2.30, -0.70) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 7) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 7 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(-2.32, 1.73, 0.49) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-3.78, 1.27, 1.43) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.32, -1.85, -0.36) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.29, 1.39, -1.32) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.21, -0.04, -0.15) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(3.29, 1.94, 1.12) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.03, 2.01, -1.62) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.35, 1.72, -2.13) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.80, 1.14, 2.14) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.06, 0.17, -0.12) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 8) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 8 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(1.82, -0.34, -1.58) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.00, -2.69, -0.96) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.91, -2.75, 0.25) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.30, -1.64, 0.23) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.28, 0.04, 0.04) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.63, 0.27, -0.28) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.27, -0.66, 1.38) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(2.68, 1.44, 0.07) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.35, 0.37, 0.43) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.63, -0.75, 0.91) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 9) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 9 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;32mINFO[0m] Received request for work 
+BoxGen: kf=211, p=(-0.73, 0.13, -0.39) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(1.62, -2.16, -0.35) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.19, 1.86, -0.18) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-2.14, -2.55, 0.96) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-1.30, -1.77, 0.92) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.54, 0.09, 0.20) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.05, -0.21, -0.12) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(3.36, -1.28, 2.81) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(-0.61, 4.10, 2.06) GeV, x=(0.0, 0.0, 0.0) cm
+BoxGen: kf=211, p=(0.35, 0.26, 0.15) GeV, x=(0.0, 0.0, 0.0) cm
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] (Event 10) 10 primary tracks from vertex (0, 0, 0) with beam angle (0, 0) 
+[[01;36m17:55:54[0m][[01;33mWARN[0m] Sending 10 particles
+
+[[01;36m17:55:54[0m][[01;33mWARN[0m] treating ev 10 part 1 out of 1
+
+[[01;36m17:55:54[0m][[01;32mINFO[0m] reply send
+[[01;36m17:55:54[0m][[01;32mINFO[0m] GOT A REQUEST WITH SIZE 11
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] RUNNING state finished without an external event, entering READY state
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] Entering RESETTING_TASK state
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] Entering DEVICE_READY state
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] Controller ignoring event: RESETTING TASK
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] Entering RESETTING_DEVICE state
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] Controller ignoring event: RESETTING DEVICE
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] Entering IDLE state
+[[01;36m17:55:54[0m][[01;35mSTATE[0m] Entering EXITING state
+[[01;36m17:55:54[0m][[01;34mDEBUG[0m] Shutting down Plugin Manager
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] Unloaded plugin: 'control', version '1.3.8', maintainer 'FairRootGroup <fairroot@gsi.de>', homepage 'https://github.com/FairRootGroup/FairRoot'
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] Shutting down Plugin Services
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] Destructing device primary-server
+[[01;36m17:55:55[0m][[01;35mSTATE[0m] Exiting FairMQ state machine
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] removed RTDB container factory ContainerFactory
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] removed RTDB container factory PassiveContFact
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] removed RTDB container factory MagFieldContFact
+[[01;36m17:55:55[0m][[01;34mDEBUG[0m] removed RTDB container factory FairBaseContFact
