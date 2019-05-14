@@ -34,7 +34,7 @@ void CheckDigits(std::string digifile = "itsdigits.root", std::string hitfile = 
 	using o2::ITSMFT::SegmentationAlpide;
 	using namespace o2::ITS;
 
-	TFile* f = TFile::Open("CheckDigits_continuousRO.root", "recreate");
+	TFile* f = TFile::Open("CheckDigits.root", "recreate");
 
 	TNtuple* nt = new TNtuple("ntd", "digit ntuple", "id:x:y:z:rowD:colD:rowH:colH:xlH:zlH:xlcH:zlcH:dx:dz");
 

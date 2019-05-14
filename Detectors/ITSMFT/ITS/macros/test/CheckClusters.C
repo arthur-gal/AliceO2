@@ -28,7 +28,7 @@ void CheckClusters(std::string clusfile = "o2clus_its.root", std::string hitfile
   	using o2::ITSMFT::Hit;
 
   	// Outputs file
-  	TFile* f = TFile::Open("CheckClusters_continuousRO.root", "recreate");
+  	TFile* f = TFile::Open("CheckClusters.root", "recreate");
   	TNtuple* nt = new TNtuple("ntc", "cluster ntuple", "x:y:z:dx:dz:lab:rof:ev:hlx:hlz:clx:clz");
 
   	// Map to store nTuple per topology
