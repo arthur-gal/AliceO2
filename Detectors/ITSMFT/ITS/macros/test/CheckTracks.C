@@ -22,15 +22,13 @@
 #endif
 
 
-bool LookUpObject(int objectEventID, int objectID, std::vector<std::pair<int, int>>& objectsChecked);
 
-void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile = "o2clus_its.root", std::string hitfile = "o2sim.root")
+void CheckTracks_bis(std::string tracfile = "o2trac_its.root", std::string clusfile = "o2clus_its.root", std::string hitfile = "o2sim.root")
 {
   
     using namespace o2::ITSMFT;
     using namespace o2::ITS;
 
-    TFile* f = TFile::Open("CheckTracks.root", "recreate");
 
     TNtuple* nt = new TNtuple("ntt", "track ntuple",
                                 //"mcYOut:recYOut:"
@@ -74,39 +72,29 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
 
     // Get track Read Out Frame arrays
     //for clusters
-    TTree* clusterROFTree = (TTree*)clustFile->Get("ITSClustersROF");
-    std::vector<o2::ITSMFT::ROFRecord>* ROFRecordClusterArrray = nullptr;
-    clusterROFTree->SetBranchAddress("ITSClustersROF", &ROFRecordClusterArrray);
-    std::vector<o2::ITSMFT::ROFRecord>& ROFRecordClusterArrrayRef = *ROFRecordClusterArrray;
-    clusterROFTree->GetEntry(0);
-
     TTree* clusterMC2ROFTree = (TTree*)clustFile->Get("ITSClustersMC2ROF");
     std::vector<o2::ITSMFT::MC2ROFRecord>* MC2ROFRecordClusterArrray = nullptr;
     clusterMC2ROFTree->SetBranchAddress("ITSClustersMC2ROF", &MC2ROFRecordClusterArrray);
     clusterMC2ROFTree->GetEntry(0);
 
-    // for tracks
-    TTree* trackROFTree = (TTree*)recTrackFile->Get("ITSTracksROF");
-    std::vector<o2::ITSMFT::ROFRecord>* ROFRecordTrackArrray = nullptr;
-    trackROFTree->SetBranchAddress("ITSTracksROF", &ROFRecordTrackArrray);
-    std::vector<o2::ITSMFT::ROFRecord>& ROFRecordTrackArrrayRef = *ROFRecordTrackArrray;
-    trackROFTree->GetEntry(0);
+    TTree* clusterROFTree = (TTree*)clustFile->Get("ITSClustersROF");
+    std::vector<o2::ITSMFT::ROFRecord>* ROFRecordClusterArrray = nullptr;
+    clusterROFTree->SetBranchAddress("ITSClustersROF", &ROFRecordClusterArrray);
+    std::vector<o2::ITSMFT::ROFRecord>& ROFRecordClusterArrrayRef = *ROFRecordClusterArrray;
+    clusterROFTree->GetEntry(0);
+    
 
+    // for tracks
     TTree* trackMC2ROFTree = (TTree*)recTrackFile->Get("ITSTracksMC2ROF");
     std::vector<o2::ITSMFT::MC2ROFRecord>* MC2ROFRecordTrackArrray = nullptr;
     trackMC2ROFTree->SetBranchAddress("ITSTracksMC2ROF", &MC2ROFRecordTrackArrray);
     trackMC2ROFTree->GetEntry(0);
 
-    unsigned int minROF = 0; 
-    unsigned int maxROF = 0;
-
-    unsigned int rofIndex = 0;
-    unsigned int rofNEntries = 0;
-
-
-    Int_t tf = 0, nrec = 0;
-    Int_t lastEventID = -1;
-    Int_t nev = mcTree->GetEntries();
+    TTree* trackROFTree = (TTree*)recTrackFile->Get("ITSTracksROF");
+    std::vector<o2::ITSMFT::ROFRecord>* ROFRecordTrackArrray = nullptr;
+    trackROFTree->SetBranchAddress("ITSTracksROF", &ROFRecordTrackArrray);
+    std::vector<o2::ITSMFT::ROFRecord>& ROFRecordTrackArrrayRef = *ROFRecordTrackArrray;
+    trackROFTree->GetEntry(0);
 
 
     // Efficiency histograms
@@ -140,14 +128,12 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
     TH1D* hGenVsLambda = new TH1D("hGenVsLambda", ";#it{#lambda};N_{MC tracks}", 180, -TMath::Pi()/2, TMath::Pi()/2);
     hGenVsLambda->Sumw2();
 
-    // Keep track of checked tracks
-    std::vector<std::pair<int, int>> goodTracksChecked;
-    std::vector<std::pair<int, int>> fakeTracksChecked;
 
-    int counterTEST = 0;
+    // LOOP on :  MC2ROFRecord tracks array
+    for(auto& iMCROFtrack : *MC2ROFRecordTrackArrray){        
 
 
-    for(int iEvent=0; iEvent<nev; iEvent++){
+        Int_t iEvent = iMCROFtrack.eventRecordID;
 
         Int_t nGen = 0, nGood = 0, nFake = 0;
 
@@ -156,7 +142,99 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
         Int_t nmc = mcArr->size();
         Int_t nmcrefs = mcTrackRefs->size();
 
-        std::cout << "\nMC event " << iEvent << '/' << nev << std::endl;
+        std::cout << "\nMC event " << iEvent << '/' << MC2ROFRecordTrackArrray->size() << std::endl;
+
+
+        unsigned int minROFtrack = iMCROFtrack.minROF;
+        unsigned int maxROFtrack = iMCROFtrack.maxROF;
+
+        // Fill corresponding reconstructed tracks
+        std::vector<std::pair<TrackITS, int>> recoTracks;
+
+        // LOOP on : ROFRecord tracks array
+        for(int iROFtrack = minROFtrack; iROFtrack <= maxROFtrack; iROFtrack++){
+
+            auto eventIndex = ROFRecordTrackArrrayRef[iROFtrack].getROFEntry();
+
+            int eventID = eventIndex.getEvent();
+
+            clusTree->GetEvent(eventID);
+            recTree->GetEvent(eventID);
+
+            unsigned int rofIndex = eventIndex.getIndex();
+            unsigned int rofNEntries = ROFRecordTrackArrrayRef[iROFtrack].getNROFEntries();
+
+                    
+            // LOOP on : tracks array
+            for(int iTrack = rofIndex; iTrack < rofIndex+rofNEntries; iTrack++){
+
+                TrackITS& recTrack = (*recArr)[iTrack];
+
+                std::pair<TrackITS, int> track(recTrack, iTrack);
+
+                bool alreadyExist = false;
+
+                for(auto& it : recoTracks){
+
+                    if(iTrack == it.second){
+
+                        alreadyExist = true;
+                        break;
+                    }
+
+                }
+                
+                if(!alreadyExist) recoTracks.push_back(track);
+
+            }
+
+        }
+
+
+        // Fill corresponding clusters
+        std::vector<std::pair<Cluster, int>> Clusters;
+
+        unsigned int minROFclust = (*MC2ROFRecordClusterArrray)[iEvent].minROF;
+        unsigned int maxROFclust = (*MC2ROFRecordClusterArrray)[iEvent].maxROF;
+
+        // LOOP on : ROFRecord array
+        for(int iROF = minROFclust; iROF<=maxROFclust; iROF++){
+
+            auto eventIndex = ROFRecordClusterArrrayRef[iROF].getROFEntry();
+
+            int eventID = eventIndex.getEvent();
+
+            clusTree->GetEvent(eventID);
+
+            unsigned int rofIndex = eventIndex.getIndex();
+            unsigned int rofNEntries = ROFRecordClusterArrrayRef[iROF].getNROFEntries();
+
+
+            // LOOP on : clusters array
+            for(int iCluster = rofIndex; iCluster < rofIndex+rofNEntries; iCluster++){
+
+                Cluster& c = (*clusArr)[iCluster];
+
+                std::pair<Cluster, int> cluster(c, iCluster);
+
+                bool alreadyExist = false;
+
+                for(auto& it : Clusters){
+
+                    if(iCluster == it.second){
+
+                        alreadyExist = true;
+                        break;
+                    }   
+
+                }
+                
+                if(!alreadyExist) Clusters.push_back(cluster);
+
+            }
+
+        }
+
 
 
         while (nmc--) {
@@ -172,77 +250,48 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
             
             if (TMath::Abs(pdg) != 211) continue; // Select pions
           
+
             int ok = 0;
 
-            // Check the availability of clusters
-            // LOOP on :  MC2ROFRecord array
-            for(auto& it : *MC2ROFRecordClusterArrray){        
+            for(auto& cluster : Clusters){
 
-                minROF = it.minROF;
-                maxROF = it.maxROF;
+                auto mcLabel = (clusLabArr->getLabels(cluster.second))[0];
 
-
-                // LOOP on : ROFRecord array
-                for(int iROF = minROF; iROF<=maxROF; iROF++){
-
-                    auto eventIndex = ROFRecordClusterArrrayRef[iROF].getROFEntry();
-
-                    int eventID = eventIndex.getEvent();
-
-                    clusTree->GetEvent(eventID);
-
-                    rofIndex = eventIndex.getIndex();
-                    rofNEntries = ROFRecordClusterArrrayRef[iROF].getNROFEntries();
-
-
-                    // LOOP on : clusters array
-                    for(int iCluster = rofIndex; iCluster < rofIndex+rofNEntries; iCluster++){
-
-                        const Cluster& c = (*clusArr)[iCluster];
-                        auto mcLabel = (clusLabArr->getLabels(iCluster))[0];
-
-                        auto trackEventID = mcLabel.getEventID();
+                auto trackEventID = mcLabel.getEventID();
           
-                        if (trackEventID != iEvent) continue;
+                if (trackEventID != iEvent) continue;
           
-                        Int_t trackID = mcLabel.getTrackID();
+                Int_t trackID = mcLabel.getTrackID();
 
-                        if (TMath::Abs(trackID) != nmc) continue;
+                if (TMath::Abs(trackID) != nmc) continue;
           
-                        auto r = c.getX();
+                auto r = cluster.first.getX();
 
-                        if (TMath::Abs(r - 2.2) < 0.5)
-                            ok |= 0b1;
+                if (TMath::Abs(r - 2.2) < 0.5)
+                    ok |= 0b1;
           
-                        if (TMath::Abs(r - 3.0) < 0.5)
-                            ok |= 0b10;
+                if (TMath::Abs(r - 3.0) < 0.5)
+                    ok |= 0b10;
           
-                        if (TMath::Abs(r - 3.8) < 0.5)
-                            ok |= 0b100;
+                if (TMath::Abs(r - 3.8) < 0.5)
+                    ok |= 0b100;
 
-                        if (TMath::Abs(r - 19.5) < 0.5)
-                            ok |= 0b1000;
+                if (TMath::Abs(r - 19.5) < 0.5)
+                    ok |= 0b1000;
 
-                        if (TMath::Abs(r - 24.5) < 0.5)
-                            ok |= 0b10000;
+                if (TMath::Abs(r - 24.5) < 0.5)
+                    ok |= 0b10000;
 
-                        if (TMath::Abs(r - 34.5) < 0.5)
-                            ok |= 0b100000;
+                if (TMath::Abs(r - 34.5) < 0.5)
+                    ok |= 0b100000;
 
-                        if (TMath::Abs(r - 39.5) < 0.5)
-                            ok |= 0b1000000;
+                if (TMath::Abs(r - 39.5) < 0.5)
+                    ok |= 0b1000000;
 
-
-                        if (ok == 0b1111111) break;
-                    }
-
-                    if (ok == 0b1111111) break;
-
-                }
 
                 if (ok == 0b1111111) break;
-
             }
+          
 
             if (ok != 0b1111111) continue;
         
@@ -267,113 +316,74 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
             hGenVsLambda->Fill(mcLambda);
 
 
-            /*/ LOOP on :  MC2ROFRecord array
-            for(auto& iMCROF : *MC2ROFRecordTrackArrray){        
+            for(auto& recTrack : recoTracks){
 
-                minROF = iMCROF.minROF;
-                maxROF = iMCROF.maxROF;
 
-                // LOOP on : ROFRecord array
-                for(int iROF = minROF; iROF<=maxROF; iROF++){
-
-                    auto eventIndex = ROFRecordTrackArrrayRef[iROF].getROFEntry();
-
-                    int eventID = eventIndex.getEvent();
-
-                    clusTree->GetEvent(eventID);
-                    recTree->GetEvent(eventID);
-
-                    rofIndex = eventIndex.getIndex();
-                    rofNEntries = ROFRecordTrackArrrayRef[iROF].getNROFEntries();
-
-                    
-                    // LOOP on : tracks array
-                    for(int iTrack = rofIndex; iTrack < rofIndex+rofNEntries; iTrack++){
-
-                        counterTEST++;
-
-                        const TrackITS& recTrack = (*recArr)[iTrack];
-
-                        auto mcLabel = (trkLabArr->getLabels(iTrack))[0];
+                auto mcLabel = (trkLabArr->getLabels(recTrack.second))[0];
                 
-                        auto trackEventID = mcLabel.getEventID();
+                auto trackEventID = mcLabel.getEventID();
 
-                        if (trackEventID != iEvent) continue;
+                if (trackEventID != iEvent) continue;
           
-                        Int_t trackID = mcLabel.getTrackID();
+                Int_t trackID = mcLabel.getTrackID();
 
-                        if (TMath::Abs(trackID) != nmc) continue;
+                if (TMath::Abs(trackID) != nmc) continue;
 
 
-                        for (auto& ref : *mcTrackRefs) {
+                for (auto& ref : *mcTrackRefs) {
                     
-                            if (ref.getUserId() != 6) continue;
+                    if (ref.getUserId() != 6) continue;
             
-                            if (ref.getTrackID() != nmc) continue;
+                    if (ref.getTrackID() != nmc) continue;
             
-                            // mcYOut=ref.LocalY();
-                            mcZOut = ref.Z();
-                            mcPhiOut = ref.Phi();
-                            mcThetaOut = ref.Theta();
-                            break;
-                        }
+                    // mcYOut=ref.LocalY();
+                    mcZOut = ref.Z();
+                    mcPhiOut = ref.Phi();
+                    mcThetaOut = ref.Theta();
+                    break;
+                }
 
-                        auto out = recTrack.getParamOut();
-                        // recYOut = out.getY();
-                        recZOut = out.getZ();
-                        recPhiOut = out.getPhi();
-                        recThetaOut = out.getTheta();
+                auto out = recTrack.first.getParamOut();
+                // recYOut = out.getY();
+                recZOut = out.getZ();
+                recPhiOut = out.getPhi();
+                recThetaOut = out.getTheta();
 
-                        std::array<float, 3> p;
-                        recTrack.getPxPyPzGlo(p);
-                        recPt = recTrack.getPt();
-                        recPhi = TMath::ATan2(p[1], p[0]);
-                        recLambda = TMath::ATan2(p[2], recPt);
+                std::array<float, 3> p;
+                recTrack.first.getPxPyPzGlo(p);
+                recPt = recTrack.first.getPt();
+                recPhi = TMath::ATan2(p[1], p[0]);
+                recLambda = TMath::ATan2(p[2], recPt);
 
-                        Float_t vx = 0., vy = 0., vz = 0.; // Assumed primary vertex
-                        Float_t bz = 5.;                   // Assumed magnetic field
-                        recTrack.getImpactParams(vx, vy, vz, bz, ip);
-                        label = trackID;
+                Float_t vx = 0., vy = 0., vz = 0.; // Assumed primary vertex
+                Float_t bz = 5.;                   // Assumed magnetic field
+                recTrack.first.getImpactParams(vx, vy, vz, bz, ip);
+                label = trackID;
 
-                        if (label > 0) {
+                if (label > 0) {
 
-                            if(!LookUpObject(trackEventID, label, goodTracksChecked)){
+                    nGood++; // Good found tracks for the efficiency calculation
+                    hGoodVsPt->Fill(mcPt);
+                    hGoodVsPhi->Fill(mcPhi);
+                    hGoodVsLambda->Fill(mcLambda);
+                                     
+                } 
+                else {
 
-                                std::pair<int, int> trackLab(trackEventID, label);
-                                goodTracksChecked.push_back(trackLab);
-
-                                nGood++; // Good found tracks for the efficiency calculation
-                                hGoodVsPt->Fill(mcPt);
-                                hGoodVsPhi->Fill(mcPhi);
-                                hGoodVsLambda->Fill(mcLambda);
-                            }
-                            
-                        } 
-                        else {
-
-                            if(!LookUpObject(trackEventID, label, fakeTracksChecked)){
-
-                                std::pair<int, int> trackLab(trackEventID, label);
-                                fakeTracksChecked.push_back(trackLab);
-
-                                nFake++; // Fake-track rate calculation
-                                hFakeVsPt->Fill(mcPt);
-                                hFakeVsPhi->Fill(mcPhi);
-                                hFakeVsLambda->Fill(mcLambda);
-                            }
-
-                        }
-                    }
-
-            
-                    nt->Fill( // mcYOut,recYOut,
-                        mcZOut, recZOut, mcPhiOut, recPhiOut, mcThetaOut, recThetaOut, mcPhi, recPhi, mcLambda, recLambda, mcPt, recPt, ip[0],
-                        ip[1], label);
-
+                    nFake++; // Fake-track rate calculation
+                    hFakeVsPt->Fill(mcPt);
+                    hFakeVsPhi->Fill(mcPhi);
+                    hFakeVsLambda->Fill(mcLambda);
                 
                 }
 
-            }*/
+            }
+
+            nt->Fill( // mcYOut,recYOut,
+                        mcZOut, recZOut, mcPhiOut, recPhiOut, mcThetaOut, recThetaOut, mcPhi, recPhi, mcLambda, recLambda, mcPt, recPt, ip[0],
+                        ip[1], label);
+
+            
 
         }
         
@@ -383,15 +393,37 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
             std::cout << "Good found tracks: " << nGood << ",  efficiency: " << eff << ",  fake-track rate: " << rat << std::endl;
         }
 
-        goodTracksChecked.clear();
-        fakeTracksChecked.clear();
+    
+        recoTracks.clear();
+        Clusters.clear();
 
     }
-    
-    cout <<"TEST : " <<counterTEST <<endl;
-  
-    // "recPt>0" means "found tracks only"
-    // "label>0" means "found good tracks only"
+
+    // Save
+    TFile* f = TFile::Open("CheckTracks.root", "recreate");
+
+    nt->Write();
+
+    hGoodVsPt->Divide(hGoodVsPt, hGenVsPt, 1, 1, "b");
+    hGoodVsPt->Write();
+    hFakeVsPt->Divide(hFakeVsPt, hGenVsPt, 1, 1, "b");
+    hFakeVsPt->Write();
+
+    hGoodVsPhi->Divide(hGoodVsPhi, hGenVsPhi, 1, 1, "b");
+    hGoodVsPhi->Write();
+    hFakeVsPhi->Divide(hFakeVsPhi, hGenVsPhi, 1, 1, "b");
+    hFakeVsPhi->Write();
+
+    hGoodVsLambda->Divide(hGoodVsLambda, hGenVsLambda, 1, 1, "b");
+    hGoodVsLambda->Write();
+    hFakeVsLambda->Divide(hFakeVsLambda, hGenVsLambda, 1, 1, "b");
+    hFakeVsLambda->Write();
+
+    f->Close();
+
+
+
+    // Plot
     new TCanvas;
     nt->Draw("ipD", "recPt>0 && label>0");
     new TCanvas;
@@ -410,57 +442,34 @@ void CheckTracks(std::string tracfile = "o2trac_its.root", std::string clusfile 
     c1->SetLogx();
     c1->SetGridx();
     c1->SetGridy();
-
-    hGoodVsPt->Divide(hGoodVsPt, hGenVsPt, 1, 1, "b");
+ 
+    hGoodVsPt->SetAxisRange(0., 1.1,"Y");
     hGoodVsPt->Draw("histe");
-
-    hFakeVsPt->Divide(hFakeVsPt, hGenVsPt, 1, 1, "b");
+    
     hFakeVsPt->SetLineColor(2);
     hFakeVsPt->Draw("histesame");
 
     new TCanvas;
-    hGoodVsPhi->Divide(hGoodVsPhi, hGenVsPhi, 1, 1, "b");
-    hGoodVsPhi->SetAxisRange(0., 1.,"Y");
+    
+    hGoodVsPhi->SetAxisRange(0., 1.1,"Y");
     hGoodVsPhi->Draw("histe");
   
-    hFakeVsPhi->Divide(hFakeVsPhi, hGenVsPhi, 1, 1, "b");
     hFakeVsPhi->SetLineColor(2);
     hFakeVsPhi->Draw("histesame");
 
     new TCanvas;
-    hGoodVsLambda->Divide(hGoodVsLambda, hGenVsLambda, 1, 1, "b");
-    hGoodVsLambda->SetAxisRange(0., 1.,"Y");
+    
+    hGoodVsLambda->SetAxisRange(0., 1.1,"Y");
     hGoodVsLambda->Draw("histe");
   
-    hFakeVsLambda->Divide(hFakeVsLambda, hGenVsLambda, 1, 1, "b");
     hFakeVsLambda->SetLineColor(2);
     hFakeVsLambda->Draw("histesame");
 
-    f->Write();
-    f->Close();
+    
+   
 
     
 }
-
-
-
-bool LookUpObject(int objectEventID, int objectID, std::vector<std::pair<int, int>>& objectsChecked){
-
-    bool exist = false;
-
-    for(auto it : objectsChecked){
-
-        if(it.first == objectEventID &&  it.second == objectID){
-
-            exist = true;
-            break;
-        }
-    }
-
-    return exist;
-}
-
-
 
 
 
